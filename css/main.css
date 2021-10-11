@@ -37,7 +37,7 @@ body {
 }
 
 .navImg img {
-    width: 20%;
+    width: 50%;
 }
 
 .navList {
@@ -66,8 +66,9 @@ a {
 
 .homePage {
     height: 100vh;
-    background-image: url('/imgs/HomeBack.JPG');
+    background-image: url('/imgs/homeBack.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 
