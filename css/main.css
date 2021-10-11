@@ -1,0 +1,562 @@
+:root {
+    --text-color: var(rgb(2, 7, 87))
+}
+
+@font-face {
+    font-family: MogulHo;
+    src: url('/fonts/MogulFuturaEugeniaHo.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Mogul;
+    src: url('/fonts/MogulFuturaEugenia.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: MogulItalic;
+    src: url('/fonts/MogulFuturaEugeniaItalic.ttf') format("truetype");
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.navImg {
+    width: 30%;
+}
+
+.navImg img {
+    width: 20%;
+}
+
+.navList {
+    width: 40%;
+}
+
+.navList ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1;
+    font-size: 1.5vw;
+}
+
+.navList ul a {
+    color: white;
+}
+
+.navButton {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.homePage {
+    height: 100vh;
+    background-image: url('/imgs/HomeBack.JPG');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.homePageContainer {
+    display: flex;
+}
+
+
+/*Home Page*/
+
+.homePageTextSection {
+    font-size: 3.6vw;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.homePageTextSectionRight {
+    width: 50%;
+}
+
+.homePageTextSectionRight img {
+    width: 100%;
+}
+
+.homePageText {
+    position: absolute;
+}
+
+.homePageText h1 {
+    font-size: 4vw;
+}
+
+.homePageText strong {
+    font-size: 6.3vw;
+    font-weight: bold;
+}
+
+.srchbar {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    background-color: white;
+    height: 4vw;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.srchbar button {
+    width: 10%;
+    height: 90%;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    border-radius: 40px;
+    margin-left: 1%;
+}
+
+.bottomArrow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -6%;
+}
+
+.bottomArrow img {
+    width: 5%;
+    transform: rotate(90deg);
+}
+
+
+/*About Us*/
+
+.aboutUs {
+    display: flex;
+    justify-content: space-around;
+    height: 110vh;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/imgs/whiteBack2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(2, 7, 87);
+}
+
+.aboutUsContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+.aboutUs h1 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.aboutUs p {
+    font-size: 1vw;
+    color: rgb(99, 99, 99);
+    width: 100%;
+    margin-top: 10%;
+}
+
+.aboutUsLeft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-content: space-around;
+}
+
+.aboutUsMiddle {
+    width: 30%;
+}
+
+.aboutUsMiddle img {
+    width: 30vw;
+}
+
+.aboutUsRight {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.aboutUs .bottomArrow {
+    margin-bottom: 5%;
+}
+
+.aboutUs .bottomArrow img {
+    width: 20%;
+}
+
+
+/*Enviroment*/
+
+.enviroment {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 100vh;
+    justify-content: space-around;
+    background-image: url('/imgs/whiteBack1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(2, 7, 87);
+}
+
+.enviromentTop {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.enviromentTop h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2%;
+}
+
+.enviromentTop strong {
+    font-weight: bold;
+}
+
+.enviromentMiddle {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 40%;
+}
+
+.enviromentBox {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, 0.075), rgb(0, 7, 53));
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    align-content: center;
+    height: 65%;
+    margin: 25px;
+}
+
+.enviromentBox h1 {
+    margin-top: -12%;
+    color: rgb(231, 231, 231);
+    font-size: 1.8vw;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.enviromentBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.enviroment .bottomArrow {
+    margin-top: -1%;
+}
+
+.grayscaleEnvi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(241, 241, 241, 0.075), rgb(1, 11, 80));
+    z-index: 1;
+}
+
+
+/*teacehrs*/
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 100vh;
+    justify-content: space-around;
+    background-image: url('/imgs/blackBack.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.teachersTop {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.teachersTop h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+.teachersTop strong {
+    font-weight: bold;
+}
+
+.teachersMiddle {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 5%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 60%;
+}
+
+.teachersBox {
+    display: flex;
+    position: relative;
+    width: 19%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    align-content: center;
+    height: 100%;
+    margin: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.teachersText {
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    margin-top: -35%;
+}
+
+.teachersText h1 {
+    font-family: MogulItalic;
+}
+
+.teachersInfo {
+    position: absolute;
+    top: 3%;
+    left: 6%;
+}
+
+.teachersInfo button {
+    background-color: white;
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, 0.253);
+    font-size: 0.8vw;
+}
+
+.teachersBox h1 {
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.teachersBox h2 {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.teachersBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    z-index: 0;
+}
+
+.grayscale {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, 0.075), rgb(7, 30, 59));
+    z-index: 1;
+    border-radius: 28px;
+}
+
+.teachers .bottomArrow {
+    margin-top: -1%;
+}
+
+
+/*priority*/
+
+.priorityTop {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 2%;
+    color: rgb(2, 7, 87);
+}
+
+.priority h1 {
+    font-size: 3vw;
+}
+
+.priority strong {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.prioritytTop h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2%;
+}
+
+.priority {
+    background-image: url(/imgs/Icons.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.priorityContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.priorityContainer h1 {
+    font-size: 6vw;
+}
+
+.iq {
+    width: 40%;
+    color: aqua;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 20%;
+}
+
+.eq {
+    width: 40%;
+    color: cadetblue;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-bottom: 20%;
+}
+
+.chess {
+    width: 40%;
+    color: aquamarine;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: -25%;
+}
+
+.priority p {
+    width: 60%;
+    margin: 20px auto;
+    color: gray;
+}
+
+
+/*lesson*/
+
+.lesson {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 100vh;
+    justify-content: space-around;
+    background-image: url('/imgs/blackBack.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.lessonTop {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.lessonTop strong {
+    font-weight: bold;
+}
+
+.lessonTop h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2%;
+}
+
+.lessonMiddle {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 60%;
+}
+
+.lessonBox {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    align-content: center;
+    height: 50%;
+    margin: 15px;
+    border-radius: 30px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: hsl(0, 0%, 89%);
+}
+
+.lessonBox:hover {
+    border: 5px solid rgb(0, 132, 255);
+    border-radius: 30px;
+}
+
+.lessonBox h1 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.lessonBox h2 {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.lessonBox img {
+    width: 20%;
+}
+
+.lessonBox p {
+    font-size: 1vw;
+    width: 80%;
+}
