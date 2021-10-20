@@ -32,12 +32,30 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width:600px) {
+    .navigation {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .navImg {
     width: 30%;
 }
 
 .navImg img {
     width: 50%;
+}
+
+@media screen and (max-width:600px) {
+    .navImg {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+    .navImg img {
+        width: 100%;
+    }
 }
 
 .navList {
@@ -54,6 +72,15 @@ body {
 
 .navList ul a {
     color: white;
+}
+
+@media screen and (max-width:600px) {
+    .navList {
+        width: 80%;
+    }
+    .navList ul {
+        font-size: 3vw;
+    }
 }
 
 .navButton {
@@ -76,6 +103,16 @@ a {
     display: flex;
 }
 
+@media screen and (max-width:600px) {
+    .homePage {
+        height: 50vh;
+    }
+    .homePageContainer {
+        display: flex;
+        height: 100%;
+    }
+}
+
 
 /*Home Page*/
 
@@ -88,6 +125,13 @@ a {
     align-items: center;
     color: white;
     justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .homePageTextSection {
+        height: 20vh;
+        width: 100%;
+    }
 }
 
 .homePageTextSectionRight {
@@ -111,6 +155,20 @@ a {
     font-weight: bold;
 }
 
+@media screen and (max-width:600px) {
+    .homePageText {
+        position: absolute;
+        top: 25%;
+    }
+    .homePageText h1 {
+        font-size: 8vw;
+    }
+    .homePageText strong {
+        font-size: 12.6vw;
+        font-weight: bold;
+    }
+}
+
 .srchbar {
     width: 100%;
     border: 1px solid white;
@@ -131,6 +189,12 @@ a {
     margin-left: 1%;
 }
 
+@media screen and (max-width:600px) {
+    .srchbar {
+        height: 8.5vw;
+    }
+}
+
 .bottomArrow {
     width: 100%;
     display: flex;
@@ -149,7 +213,7 @@ a {
 .aboutUs {
     display: flex;
     justify-content: space-around;
-    height: 110vh;
+    height: 100vh;
     align-items: center;
     flex-direction: column;
     background-image: url('/imgs/whiteBack2.jpeg');
@@ -158,11 +222,23 @@ a {
     color: rgb(2, 7, 87);
 }
 
+@media screen and (max-width:600px) {
+    .aboutUs {
+        height: 30vh;
+    }
+}
+
 .aboutUsContainer {
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    .aboutUsContainer {
+        height: 40vh;
+    }
 }
 
 .aboutUs h1 {
@@ -208,6 +284,12 @@ a {
 
 .aboutUs .bottomArrow img {
     width: 20%;
+}
+
+@media screen and (max-width:600px) {
+    .aboutUs .bottomArrow img {
+        width: 5%;
+    }
 }
 
 
@@ -261,6 +343,13 @@ a {
     align-content: center;
     height: 65%;
     margin: 25px;
+}
+
+@media screen and (max-width:600px) {
+    .enviromentBox {
+        width: 100%;
+        height: 30%;
+    }
 }
 
 .enviromentBox h1 {
@@ -346,6 +435,14 @@ a {
     border: none;
 }
 
+@media screen and (max-width:600px) {
+    .teachersBox {
+        width: 40%;
+        height: 60%;
+        margin: 15px;
+    }
+}
+
 .teachersText {
     display: flex;
     z-index: 2;
@@ -372,6 +469,17 @@ a {
     font-size: 0.8vw;
 }
 
+@media screen and (max-width:600px) {
+    .teachersInfo {
+        position: absolute;
+        top: 3%;
+        left: 8%;
+    }
+    .teachersInfo button {
+        font-size: 8px;
+    }
+}
+
 .teachersBox h1 {
     color: white;
     font-size: 2vw;
@@ -391,6 +499,12 @@ a {
     z-index: 0;
 }
 
+@media screen and (max-width:600px) {
+    .teachersBox img {
+        border-radius: 15px;
+    }
+}
+
 .grayscale {
     position: absolute;
     width: 100%;
@@ -398,6 +512,12 @@ a {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, 0.075), rgb(7, 30, 59));
     z-index: 1;
     border-radius: 28px;
+}
+
+@media screen and (max-width:600px) {
+    .grayscale {
+        border-radius: 14px;
+    }
 }
 
 .teachers .bottomArrow {
@@ -429,6 +549,18 @@ a {
     margin-bottom: 2%;
 }
 
+@media screen and (max-width:600px) {
+    .priorityTop {
+        font-size: 3.5vw;
+    }
+    .priority h1 {
+        font-size: 6vw;
+    }
+    .priority strong {
+        font-size: 6vw;
+    }
+}
+
 .priority {
     background-image: url(/imgs/Icons.jpg);
     height: 100vh;
@@ -447,6 +579,25 @@ a {
 
 .priorityContainer h1 {
     font-size: 6vw;
+}
+
+@media screen and (max-width:600px) {
+    .priority {
+        background-image: none;
+        align-items: center;
+        height: 110vh;
+    }
+    .priorityContainer h1 {
+        font-size: 80px;
+    }
+    .priorityContainer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        height: 50%;
+    }
 }
 
 .iq {
@@ -473,10 +624,34 @@ a {
     margin-top: -25%;
 }
 
+@media screen and (max-width:600px) {
+    .iq {
+        width: 80%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
+    .eq {
+        width: 80%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+    .chess {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+}
+
 .priority p {
     width: 60%;
     margin: 20px auto;
     color: gray;
+}
+
+@media screen and (max-width:600px) {
+    .priority p {
+        width: 80%;
+    }
 }
 
 
@@ -510,6 +685,21 @@ a {
     margin-bottom: 2%;
 }
 
+@media screen and (max-width:600px) {
+    .lessonTop {
+        text-align: center;
+        font-size: 3vw;
+    }
+    .lessonTop strong {
+        font-weight: bold;
+    }
+    .lessonTop h1 {
+        text-align: center;
+        font-size: 6vw;
+        margin-bottom: 2%;
+    }
+}
+
 .lessonMiddle {
     text-align: center;
     display: flex;
@@ -537,6 +727,16 @@ a {
     background-color: hsl(0, 0%, 89%);
 }
 
+@media screen and (max-width:600px) {
+    .lesson {
+        height: 100vh;
+    }
+    .lessonBox {
+        height: 35%;
+        width: 38%;
+    }
+}
+
 .lessonBox:hover {
     border: 5px solid rgb(0, 132, 255);
     border-radius: 30px;
@@ -560,4 +760,19 @@ a {
 .lessonBox p {
     font-size: 1vw;
     width: 80%;
+}
+
+@media screen and (max-width:600px) {
+    .lessonBox h1 {
+        font-size: 4vw;
+    }
+    .lessonBox h2 {
+        font-size: 3vw;
+    }
+    .lessonBox p {
+        font-size: 2vw;
+    }
+    .lessonBox img {
+        width: 40%;
+    }
 }
