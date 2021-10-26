@@ -203,7 +203,7 @@ a {
 }
 
 .bottomArrow img {
-    width: 5%;
+    width: 2.5%;
 }
 
 
@@ -246,7 +246,7 @@ a {
 }
 
 .aboutUs p {
-    font-size: 1vw;
+    font-size: 1.2vw;
     color: rgb(99, 99, 99);
     width: 100%;
     margin-top: 10%;
@@ -263,10 +263,12 @@ a {
 
 .aboutUsMiddle {
     width: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 .aboutUsMiddle img {
-    width: 30vw;
+    width: 25vw;
 }
 
 .aboutUsRight {
@@ -282,7 +284,7 @@ a {
 }
 
 .aboutUs .bottomArrow img {
-    width: 15%;
+    width: 6%;
 }
 
 @media screen and (max-width:600px) {
@@ -308,7 +310,7 @@ a {
 
 .enviromentTop {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1vw;
     width: 60%;
     margin: 0 auto;
 }
@@ -332,6 +334,7 @@ a {
     flex-wrap: wrap;
     align-content: space-around;
     height: 40%;
+    margin-top: 2%;
 }
 
 .enviromentBox {
