@@ -309,6 +309,8 @@ a {
 .enviromentTop {
     text-align: center;
     font-size: 1.5vw;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .enviromentTop h1 {
@@ -530,7 +532,6 @@ a {
 .priorityTop {
     text-align: center;
     font-size: 1.5vw;
-    margin-top: 2%;
     color: rgb(2, 7, 87);
 }
 
@@ -562,10 +563,15 @@ a {
 }
 
 .priority {
-    background-image: url(/imgs/Icons.jpg);
-    height: 100vh;
+    background-image: url(/imgs/backGroundEx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    position: relative;
 }
 
 .priorityContainer {
@@ -574,7 +580,7 @@ a {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 60vh;
 }
 
 .priorityContainer h1 {
