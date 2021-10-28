@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/swiper.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
 
 
     <title>Steinitz</title>
@@ -25,7 +28,10 @@
                 <div class="navImg">
                     <img src="./imgs/LogoChess.png" alt="">
                 </div>
-                <div class="navList">
+                <div class="navButton" onclick="showMenu()">
+                    <img src="./imgs/menu.png" alt="">
+                </div>
+                <div id="navList" class="navList">
                     <ul>
                         <li>
                             <a href='#home'>Нүүр</a>
@@ -45,7 +51,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="navButton"></div>
+
             </nav>
             <div class="homePageContainer">
                 <div class="homePageTextSection">
@@ -66,17 +72,17 @@
         <div class="aboutUs" id="aboutUs">
             <div class="aboutUsContainer">
                 <div class="aboutUsLeft">
-                    <h1>Бидний зорилго</h1>
-                    <p style="width:80%; margin-left: 20%;">Шатарт нуугдан буй менежментийн ухаан, IQ хөгжүүлэх дасгал, сэтгэлзүйгээ удирдаж шийдвэр гаргах EQ чадварыг илэрхийлсэн тоглолт, хамгийн бага эрсдэлтэй болон өндөр өгөөжтэй тэнцэвэрийг илэрхийлэх тоглоомын онолын /game theory/ хэв
-                        маяг, олон талт байрлалд шүүмжит бодлоор шинжлэх чадвар /Critical thinking & analysis/, сургалтын үйл явц дунд багшийн хүүхдэд хандах яриагаар өсөн хөгжих сэтгэлгээ /Growth Mindset/ зэрэг амьдралын чадваруудыг /Soft Skills/ шатраар
+                    <h1>БИДНИЙ ЗОРИЛГО</h1>
+                    <p>Шатарт нуугдан буй менежментийн ухаан, IQ хөгжүүлэх дасгал, сэтгэлзүйгээ удирдаж шийдвэр гаргах EQ чадварыг илэрхийлсэн тоглолт, хамгийн бага эрсдэлтэй болон өндөр өгөөжтэй тэнцэвэрийг илэрхийлэх тоглоомын онолын /game theory/ хэв
+                        маяг, олон талт байрлалд шүүмжит бодлоор шинжлэх чадвар <b>/Critical thinking & analysis/</b>, сургалтын үйл явц дунд багшийн хүүхдэд хандах яриагаар өсөн хөгжих сэтгэлгээ <b>/Growth Mindset/</b> зэрэг амьдралын чадваруудыг <b>/Soft Skills/</b>шатраар
                         дамжуулан зан чанар, сэтгэлгээнд нөлөөлж давуу зан чанарыг хөгжүүлж, дутагдалтай зан чанарыг засан сайжруулахад оршино.</p>
                 </div>
                 <div class="aboutUsMiddle">
                     <img src="./imgs/LogoBlack.png" alt="">
                 </div>
                 <div class="aboutUsRight">
-                    <h1>Алсын хараа</h1>
-                    <p style="width:80%; margin-right: 20%;">Технологи шингээсэн start-up компанийг үүсгэж зорилгодоо нийцсэн тэгш шатрын боловсролыг танхимд суралцах боломжгүй дэлхийн өнцөг булан бүрт хүргэх, мөн олон улсад үнэлэгдэх шатрын гүнзгийрүүлсэн боловсролын олон талт байгууллагыг
+                    <h1>АЛСЫН ХАРАА</h1>
+                    <p>Технологи шингээсэн start-up компанийг үүсгэж зорилгодоо нийцсэн тэгш шатрын боловсролыг танхимд суралцах боломжгүй дэлхийн өнцөг булан бүрт хүргэх, мөн олон улсад үнэлэгдэх шатрын гүнзгийрүүлсэн боловсролын олон талт байгууллагыг
                         бий болгож мэргэжлийн түвшиний шатрын мэдлэгийг суурьтай заан ирээдүйд Монголдоо эвдээгүй супер их мастерын замнал мөн насанд хүрэгчидийн дэлхийн аварга төрүүлэх гүүр нь болох болно. </p>
                 </div>
             </div>
@@ -93,9 +99,11 @@
         <div class="enviroment">
             <div class="enviromentTop">
                 <h1>Сургалтын <strong>ОРЧИН</strong></h1>
-                <p>Зорилгодоо нийцсэн сургалтаа өгөхөд шатартаа дуртай суралцагч хэрэгтэй. Шатартаа дуртай суралцагчийг бий болгоход тансаг, сонгодог орчин чухал үүрэгтэй. </p>
+                <p>Зорилгодоо нийцсэн сургалтаа өгөхөд шатартаа дуртай суралцагч хэрэгтэй. <br> Шатартаа дуртай суралцагчийг бий болгоход тансаг, сонгодог орчин чухал үүрэгтэй. </p>
             </div>
+
             <div class="enviromentMiddle">
+
                 <div class="enviromentBox">
                     <div class="grayscaleEnvi"></div>
                     <img src="/imgs/orchin1.jpg" alt="">
@@ -123,41 +131,6 @@
         </div>
     </section>
 
-    <section id="enviroment2">
-        <div class="enviroment" id="enviroment">
-            <div class="enviromentTop">
-                <h1>Сургалтын <strong>ОРЧИН</strong></h1>
-                <p>Шатар зөвхөн харагдахуйц бус,мэдрэгдэхүйц байх хэрэгтэй</p>
-            </div>
-            <div class="enviromentMiddle">
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/enviroment1.jpg" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/enviroment1.jpg" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/enviroment1.jpg" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/enviroment1.jpg" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-            </div>
-            <div class="bottomArrow">
-
-                <img src="./imgs/right-arrow.png" alt="">
-            </div>
-        </div>
-    </section>
-
     <section id="teachers">
         <div class="teachers" id="teachers">
             <div class="teachersTop">
@@ -165,7 +138,7 @@
                 <p>Эрч хүчтэй, туршлагатай хамт олноор бид багаа бүрдүүллээ</p>
             </div>
             <div class="teachersMiddle">
-
+                <div class="grayscaleEnviAll"></div>
                 <div class="swiper">
 
                     <div class="swiper-wrapper">
@@ -179,6 +152,7 @@
                                 </div> -->
                                 <div class="teachersText">
                                     <h1>Г.Мөнхбаяр</h1>
+                                    <div class="line"></div>
                                     <h2>Ахлах Багш</h2>
                                 </div>
                             </div>
@@ -192,6 +166,7 @@
                                 </div> -->
                                 <div class="teachersText">
                                     <h1>С.Болдбаатар</h1>
+                                    <div class="line"></div>
                                     <h2>Ахлах Багш</h2>
                                 </div>
                             </div>
@@ -200,11 +175,10 @@
                             <div class="teachersBox">
                                 <div class="grayscale"></div>
                                 <img src="/imgs/teachers/anu.png" alt="">
-                                <div class="teachersInfo">
-                                    <button>Шинэ</button>
-                                </div>
+
                                 <div class="teachersText">
                                     <h1>Б.Ану</h1>
+                                    <div class="line"></div>
                                     <h2>Багш</h2>
                                 </div>
                             </div>
@@ -213,11 +187,10 @@
                             <div class="teachersBox">
                                 <div class="grayscale"></div>
                                 <img src="/imgs/teachers/enkhbayr.png" alt="">
-                                <div class="teachersInfo">
-                                    <button>Шинэ</button>
-                                </div>
+
                                 <div class="teachersText">
                                     <h1>Энхбаяр</h1>
+                                    <div class="line"></div>
                                     <h2>Багш</h2>
                                 </div>
                             </div>
@@ -226,11 +199,10 @@
                             <div class="teachersBox">
                                 <div class="grayscale"></div>
                                 <img src="/imgs/teachers/batnym.png" alt="">
-                                <div class="teachersInfo">
-                                    <button>Шинэ</button>
-                                </div>
+
                                 <div class="teachersText">
                                     <h1>М.Батням</h1>
+                                    <div class="line"></div>
                                     <h2>Багш</h2>
                                 </div>
                             </div>
@@ -239,11 +211,10 @@
                             <div class="teachersBox">
                                 <div class="grayscale"></div>
                                 <img src="/imgs/Teacher Batnyam.jpeg" alt="">
-                                <div class="teachersInfo">
-                                    <button>Шинэ</button>
-                                </div>
+
                                 <div class="teachersText">
                                     <h1>Базарваань</h1>
+                                    <div class="line"></div>
                                     <h2>Багш</h2>
                                 </div>
                             </div>
@@ -252,11 +223,10 @@
                             <div class="teachersBox">
                                 <div class="grayscale"></div>
                                 <img src="/imgs/Teacher Batnyam.jpeg" alt="">
-                                <div class="teachersInfo">
-                                    <button>Шинэ</button>
-                                </div>
+
                                 <div class="teachersText">
                                     <h1>Мөнхцогт</h1>
+                                    <div class="line"></div>
                                     <h2>Багш</h2>
                                 </div>
                             </div>
@@ -265,8 +235,8 @@
 
                     </div>
 
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
 
                 </div>
             </div>
@@ -282,11 +252,12 @@
                 <h1>Бидний <strong>ҮНЭ ЦЭН</strong></h1>
                 <p>Манай сургалтаар олж авах бодит үнэ цэн</p>
             </div>
+
             <div class="priorityContainer">
                 <div class="iq">
 
                     <div class="wrapper">
-                        <a style="color: red;" href="#demo-modal">IQ</a>
+                        <a href="#demo-modal">IQ</a>
                     </div>
 
                     <div id="demo-modal" class="modal">
@@ -299,10 +270,10 @@
                     </div>
 
                 </div>
-                <div class="iq">
+                <div class="eq">
 
                     <div class="wrapper">
-                        <a style="color: rgb(219, 127, 255);" href="#demo-modal2">EQ</a>
+                        <a href="#demo-modal2">EQ</a>
                     </div>
 
                     <div id="demo-modal2" class="modal">
@@ -316,10 +287,10 @@
                     </div>
 
                 </div>
-                <div class="iq">
+                <div class="gt">
 
                     <div class="wrapper">
-                        <a style="color: green;" href="#demo-modal3">Game theory</a>
+                        <a href="#demo-modal3">Game theory</a>
                     </div>
 
                     <div id="demo-modal3" class="modal">
@@ -334,10 +305,10 @@
                     <h1></h1>
 
                 </div>
-                <div class="iq">
+                <div class="ct">
 
                     <div class="wrapper">
-                        <a style="color: yellow;" href="#demo-modal4">Critical Thinking</a>
+                        <a href="#demo-modal4">Critical Thinking</a>
                     </div>
 
                     <div id="demo-modal4" class="modal">
@@ -351,10 +322,10 @@
                     </div>
 
                 </div>
-                <div class="iq">
+                <div class="gm">
 
                     <div class="wrapper">
-                        <a style="color: purple;" href="#demo-modal5">Growth Mindsent</a>
+                        <a href="#demo-modal5">Growth Mindsent</a>
                     </div>
 
                     <div id="demo-modal5" class="modal">
@@ -386,32 +357,31 @@
                     <p>Академид 1-2 жил үндсэн ангид хичээллэсэн хүүхдүүд. Нухацтай гэрээний доор өндөр түвшинд бэлдэнэ.
                     </p>
                 </div>
-                <div class="lessonBox">
+                <div class="lessonBox2">
                     <img src="./imgs/bishop.png" alt="">
                     <h1>Үндсэн анги</h1>
                     <p>Олон цаг хичээллэж хурдан хугацаанд өсөн хөгжих зорилготой. Энэ ангид суралцаж эхлэхэд ямар ч түвшинтэй байж болно.
                     </p>
                 </div>
-                <div class="lessonBox">
+                <div class="lessonBox3">
                     <img src="./imgs/king.png" alt="">
                     <h1>Амралтын өдрийн анги</h1>
                     <p>Үнэхээр шатарт хайртай даанч ажлын өдөр хичээл ихтэй хүүхдүүдийн мөрөөдөл болсон анги.
                     </p>
                 </div>
-                <div class=lessonBox ">
+                <div class=lessonBox4>
                     <img src="./imgs/queen.png " alt=" ">
                     <h1>Цахим анги</h1>
-                    <p>Дэлхийн өнцөг булан бүрээс оролцдог. Анхан шатнаас эхэлж шатарт 
-                        дурлуулдаг анги.
-                        </p>                
+                    <p>Дэлхийн өнцөг булан бүрээс оролцдог. Анхан шатнаас эхэлж шатарт дурлуулдаг анги.
+                    </p>
                 </div>
-                <div class=lessonBox >
+                <div class=lessonBox5>
                     <img src="./imgs/rook.png " alt=" ">
                     <h1>Ганцаарчилсан</h1>
                     <p>Томоохон тэмцээнд оролцох, цолны норм биелүүлэх, хурдтай суралцах гэх мэт мэргэжлийн түвшинд тулж хичээллэдэг сургалт.
                     </p>
                 </div>
-                <div class=lessonBox ">
+                <div class=lessonBox6>
                     <img src="./imgs/pawn.png " alt=" ">
                     <h1>Насанд хүрэгчидийн анги</h1>
                     <p>20 жилийн туршлага дээр үндэслэн бий болгосон үүсгэн байгуулагч Мөнхбаяр багшийн гардан ордог анги.
@@ -423,6 +393,7 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
     <script src="./js/swiper.js "></script>
+    <script src="./js/main.js"></script>
 
 </body>
 
