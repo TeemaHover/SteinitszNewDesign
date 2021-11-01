@@ -210,7 +210,7 @@ a {
 @media screen and (max-width:600px) {
     .homePageText {
         position: absolute;
-        top: 70%;
+        top: 76%;
     }
     .homePageText h1 {
         font-size: 8vw;
@@ -230,20 +230,31 @@ a {
     border-radius: 50px;
     align-items: center;
     margin-top: 10%;
+    color: black;
+}
+
+.srchbar h1 {
+    font-size: 1vw;
 }
 
 .srchbar button {
-    width: 12%;
-    height: 90%;
+    width: 11%;
+    height: 75%;
     background-color: rgb(255, 187, 0);
     border: none;
     border-radius: 40px;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 @media screen and (max-width:600px) {
     .srchbar {
         height: 8.5vw;
+    }
+    .srchbar h1 {
+        font-size: 3vw;
+    }
+    .srchbar button {
+        width: 7.5%;
     }
 }
 
@@ -677,6 +688,7 @@ a {
     text-align: center;
     font-size: 1.1vw;
     color: white;
+    margin-top: 1%;
 }
 
 .priority h1 {
@@ -724,14 +736,13 @@ a {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 30%;
+    width: 40%;
     height: 60vh;
-    background: url(/imgs/blackBack.jpg) padding-box, /*this is your grey background*/
-    linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    background: url(/imgs/blackBack.jpg) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
     color: #313149;
     padding: 10px;
     border: 5px solid transparent;
-    border-radius: 800px;
+    border-radius: 50%;
     display: inline-block;
     margin: 75px 0;
 }
@@ -770,7 +781,7 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 20%;
+    left: 17%;
     top: 24%;
 }
 
@@ -784,8 +795,8 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 34%;
-    top: 2%;
+    left: 35%;
+    top: 8%;
 }
 
 .gt {
@@ -798,7 +809,7 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 52%;
+    left: 55%;
     top: 24%;
 }
 
@@ -812,8 +823,8 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 24%;
-    top: 55%;
+    left: 27%;
+    top: 65%;
 }
 
 .gm {
@@ -826,8 +837,8 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 48%;
-    top: 55%;
+    left: 43%;
+    top: 65%;
 }
 
 .chess h1 {
@@ -853,6 +864,17 @@ a {
     .priority p {
         width: 80%;
     }
+}
+
+.priorityCenterImg {
+    position: absolute;
+    width: 30%;
+    top: 38%;
+    left: 35%;
+}
+
+.priorityCenterImg img {
+    width: 60%;
 }
 
 

@@ -1,71 +1,99 @@
-/* If you like this, be sure to ❤️ it. */
-
-.wrapper a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-size: 26px;
-    color: white;
-}
-
-.wrapper {
-    background-image: linear-gradient(rgb(0, 153, 255), rgb(223, 2, 223));
-    word-wrap: break-word;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media screen and (max-width:600px) {
-    .wrapper a {
-        display: inline-block;
-        text-decoration: none;
-        padding: 15px;
-        border-radius: 3px;
-        text-transform: uppercase;
-        font-size: 16px;
-    }
-}
-
-.modal {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    display: flex;
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
-    align-items: center;
-    justify-content: center;
-    background: rgba(77, 77, 77, .7);
-    transition: all .4s;
-    z-index: 1;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
 }
 
-.modal:target {
+.modal-window:target {
     visibility: visible;
     opacity: 1;
+    pointer-events: auto;
 }
 
-.modal__content {
-    border-radius: 4px;
-    position: relative;
-    width: 500px;
-    max-width: 90%;
-    background: #fff;
-    padding: 1em 2em;
-}
-
-.modal__close {
+.modal-window>div {
+    width: 400px;
     position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #585858;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+}
+
+.modal-window header {
+    font-weight: bold;
+}
+
+.modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+}
+
+.modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
     text-decoration: none;
+}
+
+.modal-close:hover {
+    color: black;
+}
+
+
+/* Demo Styles */
+
+a {
+    color: inherit;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-window>div {
+    border-radius: 1rem;
+}
+
+.modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+small {
+    color: lightgray;
+}
+
+.btn {
+    background-color: none;
+    text-decoration: none;
+}
+
+.btn i {
+    padding-right: 0.3em;
+}
+
+.interior {
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(to bottom left, #60dfff, #ff00ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    color: white;
 }
