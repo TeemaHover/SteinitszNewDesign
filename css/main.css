@@ -135,7 +135,7 @@ a {
 
 .homePage {
     height: 100vh;
-    background-image: url('/imgs/CompressedImg/homeBack-min.jpeg');
+    background-image: url('/imgs/CompressedImg/homeBack-min.webp');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -143,7 +143,7 @@ a {
 
 @media screen and (max-width:600px) {
     .homePage {
-        background-image: url('/imgs/CompressedImg/home-min.jpeg');
+        background-image: url('/imgs/CompressedImg/home-min.webp');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -526,7 +526,7 @@ a {
     align-content: space-around;
     height: 100vh;
     justify-content: space-around;
-    background-image: url('/imgs//CompressedImg/blackBack-min.jpg');
+    background-image: url('/imgs//CompressedImg/blackBack-min.webp');
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -719,7 +719,7 @@ a {
 }
 
 .priority {
-    background-image: url('/imgs/CompressedImg/blackBack-min.jpg');
+    background-image: url('/imgs/CompressedImg/blackBack-min.webp');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -886,7 +886,7 @@ a {
     align-content: space-around;
     height: 100vh;
     justify-content: space-around;
-    background-image: url('/imgs/CompressedImg/blackBack-min.jpg');
+    background-image: url('/imgs/CompressedImg/blackBack-min.webp');
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
