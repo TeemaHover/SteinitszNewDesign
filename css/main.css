@@ -738,7 +738,7 @@ a {
     flex-wrap: wrap;
     width: 40%;
     height: 60vh;
-    background: url(/imgs/CompressedImg/blackBack-min.jpg) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    background: url(/imgs/CompressedImg/blackBack-min.webp) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
     color: #313149;
     padding: 10px;
     border: 5px solid transparent;
