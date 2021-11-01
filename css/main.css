@@ -23,6 +23,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    background-color: #fffafa;
 }
 
 .navigation {
@@ -30,6 +31,7 @@ body {
     align-items: center;
     position: absolute;
     width: 100%;
+    padding: 0 10%;
 }
 
 @media screen and (max-width:600px) {
@@ -282,6 +284,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(2, 7, 87);
+    padding: 0 5%;
 }
 
 @media screen and (max-width:600px) {
@@ -346,7 +349,7 @@ a {
 }
 
 .aboutUsMiddle img {
-    width: 50%;
+    width: 70%;
 }
 
 .aboutUsRight {
@@ -526,11 +529,12 @@ a {
     align-content: space-around;
     height: 100vh;
     justify-content: space-around;
-    background-image: url('/imgs//CompressedImg/blackBack-min.webp');
+    background-image: url('/imgs//CompressedImg/backback.jpg');
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+    padding: 0 10%;
 }
 
 .teachersTop {
@@ -565,7 +569,6 @@ a {
     position: relative;
     width: 80%;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     align-content: center;
     height: 100%;
     margin: 15px;
@@ -633,7 +636,7 @@ a {
 
 .teachersBox h1 {
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-bottom: 10px;
 }
 
@@ -719,7 +722,7 @@ a {
 }
 
 .priority {
-    background-image: url('/imgs/CompressedImg/blackBack-min.webp');
+    background-image: url('/imgs/CompressedImg/backback.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -738,7 +741,7 @@ a {
     flex-wrap: wrap;
     width: 40%;
     height: 60vh;
-    background: url(/imgs/CompressedImg/blackBack-min.webp) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    background: url(/imgs/CompressedImg/backback.jpg) padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
     color: #313149;
     padding: 10px;
     border: 5px solid transparent;
@@ -886,7 +889,7 @@ a {
     align-content: space-around;
     height: 100vh;
     justify-content: space-around;
-    background-image: url('/imgs/CompressedImg/blackBack-min.webp');
+    background-image: url('/imgs/CompressedImg/backback.jpg');
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
