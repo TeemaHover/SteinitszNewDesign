@@ -7,6 +7,17 @@
     align-items: flex-end;
     background-color: #11110f;
     height: 50vh;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    padding: 5% 0;
+}
+
+.swiper-slide .contact {
+    display: flex;
+    align-items: flex-end;
+    background-color: #11110f;
+    height: 50vh;
     margin-top: 60vh;
     width: 100%;
     color: white;

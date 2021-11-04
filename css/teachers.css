@@ -77,7 +77,7 @@ body {
 }
 
 .navImg img {
-    width: 50%;
+    width: 60%;
 }
 
 @media screen and (max-width:600px) {
@@ -236,6 +236,10 @@ body {
     justify-content: space-around;
     position: absolute;
     align-items: center;
+}
+
+.containerTopText h1 {
+    font-family: 'Lobster', cursive;
 }
 
 .containerTopText p {
