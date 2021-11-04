@@ -1,0 +1,285 @@
+:root {
+    --text-color: var(rgb(2, 7, 87))
+}
+
+@font-face {
+    font-family: MogulHo;
+    src: url('/fonts/MogulFuturaEugeniaHo.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Mogul;
+    src: url('/fonts/MogulFuturaEugenia.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: MogulItalic;
+    src: url('/fonts/MogulFuturaEugeniaItalic.ttf') format("truetype");
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fffafa;
+}
+
+.swiperTeachers {
+    width: 100%;
+    height: 125vh;
+}
+
+.swiperTeachers .swiper-button-next {
+    top: 90%;
+    left: 50%;
+    transform: rotate(90deg);
+    background-image: url("/imgs/white-arrow.png") !important;
+}
+
+@media screen and (max-width:600px) {
+    .swiperTeachers {
+        width: 100%;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 80%;
+    padding: 0 5%;
+    z-index: 2;
+}
+
+@media screen and (max-width:600px) {
+    .navigation {
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .swiperTeachers .swiper-button-next {
+        color: white;
+    }
+}
+
+.navImg {
+    width: 30%;
+}
+
+.navImg img {
+    width: 50%;
+}
+
+@media screen and (max-width:600px) {
+    .navImg {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        position: absolute;
+        left: 0;
+    }
+    .navImg img {
+        width: 80%;
+    }
+}
+
+.navList {
+    width: 70%;
+}
+
+.navList ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1;
+    font-size: 1.1vw;
+}
+
+.navList ul a {
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .navList ul {
+        font-size: 3vw;
+        flex-direction: column;
+    }
+}
+
+.navButton {
+    width: 30%;
+    display: none;
+}
+
+.navButton img {
+    width: 100%;
+}
+
+.open {
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    .navList {
+        width: 100%;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.775);
+        text-align: center;
+        margin-top: 20%;
+        z-index: 1;
+        height: 50vh;
+        position: absolute;
+        margin-left: 10%;
+    }
+    .navList ul {
+        justify-content: space-around;
+        height: 50vh;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .navButton {
+        display: block;
+        position: absolute;
+        width: 10%;
+        right: 5%;
+        margin-top: 5%;
+    }
+    .navButton img {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.homePage {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        margin-top: 20%;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.grayscale {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .grayscale {
+        height: 100%;
+    }
+}
+
+.containerTop {
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.containerTop img {
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width:600px) {
+    .containerTop {
+        object-fit: cover;
+    }
+    .containerTop img {
+        width: 200%;
+        height: 100vh;
+    }
+}
+
+.containerTopText {
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    align-items: center;
+}
+
+.containerTopText p {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.line {
+    border: 1px solid white;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.containerTopText h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .containerTopText h1 {
+        font-size: 28px;
+    }
+}
+
+.containerBottom {
+    width: 65%;
+    margin: 5% auto;
+    line-height: 1.5;
+    color: white;
+}
+
+.containerBottom h1 {
+    margin: 2% 0;
+}
+
+@media screen and (max-width:600px) {
+    .containerBottom {
+        font-size: 10px;
+    }
+}
+
+.containerBottom .line {
+    text-align: left;
+    margin: 0;
+    width: 11%;
+    margin: 2% 0;
+}

@@ -1,19 +1,22 @@
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
+
     direction: 'horizontal',
     slidesPerView: 4,
     breakpoints: {
-        // when window width is >= 320px
+
         300: {
             slidesPerView: 1,
             spaceBetween: 20
         },
 
-        // when window width is >= 640px
-        600: {
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 40
+        },
+        1400: {
             slidesPerView: 4,
             spaceBetween: 40
-        }
+        },
     },
     autoplay: {
         delay: 2000,
@@ -32,4 +35,16 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+});
+const swiper2 = new Swiper('.swiperTeachers', {
+
+    autoHeight: true,
+    direction: 'vertical',
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    freeMode: true,
+    mousewheel: true,
+
 });

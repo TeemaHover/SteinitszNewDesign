@@ -30,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    width: 100%;
+    width: 80%;
     padding: 0 10%;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .navList {
-    width: 40%;
+    width: 70%;
 }
 
 .navList ul {
@@ -289,7 +289,7 @@ a {
 
 @media screen and (max-width:600px) {
     .aboutUs {
-        height: 120vh;
+        height: 130vh;
         align-items: center;
         justify-content: center;
     }
@@ -338,7 +338,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: right;
+    text-align: justify;
     align-content: space-around;
 }
 
@@ -357,7 +357,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: justify;
 }
 
 .aboutUs .bottomArrow {
@@ -377,7 +377,7 @@ a {
     }
     .aboutUsLeft {
         width: 100%;
-        text-align: center;
+        text-align: justify;
         align-items: center;
     }
     .aboutUsMiddle {
@@ -385,7 +385,7 @@ a {
     }
     .aboutUsRight {
         width: 100%;
-        text-align: center;
+        text-align: justify;
         align-items: center;
     }
 }
@@ -427,6 +427,20 @@ a {
 
 .enviromentTop strong {
     font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .enviromentTop {
+        font-size: 2.5vw;
+    }
+    .enviromentTop h1 {
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 2%;
+    }
+    .enviromentTop strong {
+        font-weight: bold;
+    }
 }
 
 .enviromentMiddle {
@@ -554,6 +568,15 @@ a {
     font-weight: bold;
 }
 
+@media screen and (max-width:600px) {
+    .teachersTop {
+        font-size: 2.5vw;
+    }
+    .teachersTop h1 {
+        font-size: 5vw;
+    }
+}
+
 .teachersMiddle {
     text-align: center;
     display: flex;
@@ -658,7 +681,7 @@ a {
         border-radius: 15px;
     }
     .teachersBox h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .teachersBox h2 {
         font-size: 16px;
