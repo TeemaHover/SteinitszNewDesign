@@ -4,13 +4,12 @@
 
 .contact {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background-color: #11110f;
-    height: 50vh;
     width: 100%;
     color: white;
     z-index: 2;
-    padding: 5% 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.544), rgba(0, 0, 0, 0.687)), url('/imgs/footerBack.jpeg');
 }
 
 .swiper-slide .contact {
@@ -26,8 +25,23 @@
 }
 
 .contactContainer {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+
+.contactContainer p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.contactContainer h1 {
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.contactContainer img {
+    width: 100%;
 }
 
 @media screen and (max-width:600px) {
@@ -98,10 +112,6 @@
 }
 
 .contactImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 50%;
 }
 
@@ -112,25 +122,34 @@
     }
 }
 
-.contactImg img {
-    width: 20%;
+.contactImgContainer {
+    width: 50%;
 }
 
-.contact input {
-    width: 50%;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 24px;
-    margin-top: 5%;
-    color: gray;
+.contactImg img {
+    width: 100%;
 }
 
 .contactLogo {
     margin-top: 10%;
     line-height: 2;
+    margin-left: 20%;
 }
 
 .contactLogo a {
     text-decoration: none;
     color: gray;
+}
+
+.contactLogo ul li {
+    display: flex;
+    margin: 10px;
+}
+
+.contactLogo ul li a {
+    margin-left: 5%;
+}
+
+.contactLogo ul img {
+    width: 5%;
 }

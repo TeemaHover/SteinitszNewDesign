@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
     <link rel="stylesheet" href="./css/swiper.css">
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/textwriter.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/teachersHome.css">
+    <link rel="stylesheet" href="./css/imageModal.css">
+    <link rel="stylesheet" href="./css/videoModal.css">
+    <link href="/lib/lity/lity.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
@@ -28,7 +30,7 @@
         <div class="homePage" id="home">
             <nav class="navigation">
                 <div class="navImg">
-                    <img src="./imgs/LogoChess.png" alt="Logo">
+                    <img src="./imgs/LogoChessCut.png" alt="Logo">
                 </div>
                 <div class="navButton" onclick="showMenu()">
                     <img src="./imgs/menu.png" alt="Menu">
@@ -51,197 +53,287 @@
                         <li>
                             <a href='#lesson'>Сургалт</a>
                         </li>
+                        <li>
+                            <a href='#lesson'>Бидний тухай</a>
+                        </li>
+                        <li>
+                            <a href='#lesson'>Online Shop</a>
+                        </li>
                     </ul>
                 </div>
 
             </nav>
-            <div class="homePageContainer">
-                <div class="homePageTextSection">
-                    <div class="homePageText">
-                        <h1>ШАТРЫН УХААНЫГ</h1>
-                        <h2><strong>Steinitz</strong></h2>
-                        <div class="srchbar typewriter"><button></button>
-                            <h1>Steinitz шатрын Академи</h1>
-                        </div>
+
+            <div class="nonSwiperText">
+                <h1>ШАТРЫН УХААНЫГ</h1>
+                <div style="height: 10%;"></div>
+                <div class="container">
+                    <div class="interiorVideo">
+                        <a class="btn" style="font-size: 32px;" href="#open-modal">
+                            <div class="buttonBox"></div>
+                        </a>
+                    </div>
+                </div>
+                <div id="open-modal" class="video-window">
+                    <div>
+                        <a href="#homePage" title="Close" class="modal-close">Хаах</a>
+
+                        <iframe width="420" height="345" src="https://www.youtube.com/embed/KA0iEv09GI8">
+                    </iframe>
+
                     </div>
                 </div>
             </div>
-            <div class="bottomArrow">
-                <img src="./imgs/white-arrow.png" alt="Arrow">
+
+            <div class="Homeswiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="homePageContainer slide1">
+                            <div class="homePageTextSection">
+                                <div class="homePageText">
+                                    <h2><strong>АМЬДРАЛД</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="homePageContainer slide2">
+                            <div class="homePageTextSection">
+                                <div class="homePageText">
+                                    <h2><strong>ХҮМҮҮЖИЛД</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="homePageContainer slide3">
+                            <div class="homePageTextSection">
+                                <div class="homePageText">
+                                    <h2><strong>БОЛОВСРОЛД</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- <div class=" bottomArrow ">
+                <img src="./imgs/white-arrow.png " alt="Arrow ">
+            </div> -->
+        </div>
+    </section>
+
+    <section id="aboutUs ">
+        <div class="aboutUs " id="aboutUs ">
+
+
+
+            <div class="swiperAbout" id="Homeswiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="aboutUsContainer ">
+                            <div class="borderTop"></div>
+                            <div class="aboutUsSide Aleft">
+
+                                <img src="./imgs/teachers/mubaWithBack1.jpeg" alt="">
+                            </div>
+                            <div class="aboutUsMiddle">
+                                <img src="./imgs/Logo.png" alt="">
+                            </div>
+                            <div class="aboutUsSide whiteBack">
+                                <h1>АЛСЫН ХАРАА</h1>
+                                <div class="line"></div>
+                                <p>Технологи шингээсэн <b>start-up компанийг</b> үүсгэж зорилгод агуулагдсан <b>амьдралын олон чадварууд</b> болон <b>шатрын боловсролыг</b> танхимд суралцах боломжгүй дэлхийн өнцөг булан бүрт <b>тэгш хүргэх</b>, мөн <b>олон улсад үнэлэгдэх</b>                                    шатрын гүнзгийрүүлсэн боловсролын олон талт <b>институт байгууллагыг</b> бий болгож мэргэжлийн түвшний шатрын мэдлэгийг суурьтай заан ирээдүйд Монголдоо эвдээгүй <b>супер их мастер</b>ийн замнал мөн насанд хүрэгчидийн
+                                    <b>дэлхийн аварга</b> төрүүлэхэд <b>гүүр нь болж</b>, тогтмол хөгждөг, хандлага, боловсролоор <b>салбартаа тэргүүлэх баг хамт олныг</b> үүсгэн тасралтгүй өсөн хөгжин ажиллахад оршино. </p>
+                            </div>
+                            <div class="borderBottom"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="aboutUsContainer ">
+
+                            <div class="borderTop"></div>
+                            <div class="aboutUsSide whiteBackB">
+                                <h1>БИДНИЙ ЗОРИЛГО</h1>
+                                <div class="line"></div>
+                                <p>Шатарт мянга мянган жил нуугдан буй менежментийн ухаан <b>/Management/</b> , <b>IQ</b> хөгжүүлэх дасгал, сэтгэлзүйгээ удирдаж шийдвэр гаргах <b>EQ</b> чадварыг илэрхийлсэн тоглолт, хамгийн бага эрсдэлтэй болон өндөр өгөөжтэй
+                                    тэнцэвэрийг илэрхийлэх тоглоомын онолын <b>/Game theory/</b> хэв маяг, олон талт байрлалд шүүмжит бодлоор шинжлэх чадвар <b>/Critical Thinking & Analysis/</b>, сургалтын үйл явц дунд багшийн хүүхдэд хандах яриагаар
+                                    өсөн хөгжих сэтгэлгээ <b>/Growth Mindset/</b> зэрэг амьдралын чадваруудыг <b>/Soft Skills/</b> шатраар дамжуулан суралцагчидын зан чанар, тархи, сэтгэлгээнд нөлөөлж давуу талуудыг өсгөн хөгжүүлж, дутагдалтай талуудыг
+                                    засан сайжруулж мөн ирээдүй хойчид дэлхийд үнэлэгдэх <b>мэргэжлийн тамирчидыг</b> бэлтгэх мөн <b>амьдралдаа мастер</b>, эзэн болох хувь хүмүүсийг бэлтгэхэд оршино. </p>
+                            </div>
+                            <div class="aboutUsMiddle">
+                                <img src="./imgs/Logo.png" alt="">
+                            </div>
+                            <div class="aboutUsSide Bleft">
+                                <img src="./imgs/teachers/mubaWithBack1.jpeg" alt="">
+                            </div>
+                            <div class="borderBottom"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="partners">
+        <div class="partners">
+            <div class="partnersBox">
+                <img src="./imgs/partners/jigjug.png" alt="">
+            </div>
+            <div class="partnersBox">
+                <img src="./imgs/partners/lemon.png" alt="">
+            </div>
+            <div class="partnersBox">
+                <img src="./imgs/partners/mcf-removebg-preview.png" alt="">
+            </div>
+            <div class="partnersBox melearn">
+                <img src="./imgs/partners/melearn.png" alt="">
+            </div>
+            <div class="partnersBox">
+                <img src="./imgs/partners/sezis.png" alt="">
+            </div>
+            <div class="partnersBox">
+                <img src="./imgs/partners/tomiyo.png" alt="">
+            </div>
+            <div class="partnersBox">
+                <img src="./imgs/partners/tsetsenbers-removebg-preview.png" alt="">
             </div>
         </div>
     </section>
 
-    <section id="aboutUs">
-        <div class="aboutUs" id="aboutUs">
-            <div class="aboutUsContainer">
-                <div class="aboutUsLeft">
-                    <h1>БИДНИЙ ЗОРИЛГО</h1>
-                    <p>&emsp;&emsp;&emsp;&ensp;Шатарт нуугдан буй менежментийн ухаан, IQ хөгжүүлэх дасгал, сэтгэлзүйгээ удирдаж шийдвэр гаргах EQ чадварыг илэрхийлсэн тоглолт, хамгийн бага эрсдэлтэй болон өндөр өгөөжтэй тэнцэвэрийг илэрхийлэх тоглоомын онолын
-                        /game theory/ хэв маяг, олон талт байрлалд шүүмжит бодлоор шинжлэх чадвар <b>/Critical thinking & analysis/</b>, сургалтын үйл явц дунд багшийн хүүхдэд хандах яриагаар өсөн хөгжих сэтгэлгээ <b>/Growth Mindset/</b> зэрэг амьдралын
-                        чадваруудыг
-                        <b>/Soft Skills/</b>шатраар дамжуулан зан чанар, сэтгэлгээнд нөлөөлж давуу зан чанарыг хөгжүүлж, дутагдалтай зан чанарыг засан сайжруулахад оршино.</p>
-                </div>
-                <div class="aboutUsMiddle">
-                    <img src="./imgs/LogoBlack.png" alt="">
-                </div>
-                <div class="aboutUsRight">
-                    <h1>АЛСЫН ХАРАА</h1>
-                    <p>&emsp;&emsp;&emsp;&ensp;Технологи шингээсэн start-up компанийг үүсгэж зорилгодоо нийцсэн тэгш шатрын боловсролыг танхимд суралцах боломжгүй дэлхийн өнцөг булан бүрт хүргэх, мөн олон улсад үнэлэгдэх шатрын гүнзгийрүүлсэн боловсролын
-                        олон талт байгууллагыг бий болгож мэргэжлийн түвшиний шатрын мэдлэгийг суурьтай заан ирээдүйд Монголдоо эвдээгүй супер их мастерын замнал мөн насанд хүрэгчидийн дэлхийн аварга төрүүлэх гүүр нь болох болно. </p>
-                </div>
+    <section id="teachers ">
+        <div class="teachers " id="teachers ">
+            <div class="teachersTop ">
+                <h1>Манай <strong>ДАСГАЛЖУУЛАГЧИД</strong></h1>
+                <p>Дэлхийн шатрын холбоо болон монголын шатрын холбоонд үнэлэгдсэн мэргэжлийн хамт олон</p>
             </div>
-            <div class="arrow">
-                <div class="bottomArrow">
-                    <img src="./imgs/right-arrow.png" alt="">
-                </div>
-            </div>
-        </div>
+            <div class="teachersMiddle ">
 
-    </section>
+                <div class="swiper " id="swiper ">
 
-    <section id="enviroment">
-        <div class="enviroment">
-            <div class="enviromentTop">
-                <h1>Сургалтын <strong>ОРЧИН</strong></h1>
-                <p>Зорилгодоо нийцсэн сургалтаа өгөхөд шатартаа дуртай суралцагч хэрэгтэй. <br> Шатартаа дуртай суралцагчийг бий болгоход тансаг, сонгодог орчин чухал үүрэгтэй. </p>
-            </div>
+                    <div class="swiper-wrapper ">
 
-            <div class="enviromentMiddle">
-
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/CompressedImg/orchin1-min.webp" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/CompressedImg/orchin2-min.webp" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/CompressedImg/orchin3-min.webp" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-                <div class="enviromentBox">
-                    <div class="grayscaleEnvi"></div>
-                    <img src="/imgs/CompressedImg/orchin4-min.webp" alt="">
-                    <h1>ҮНДСЭН ТЭНХИМ</h1>
-                </div>
-            </div>
-            <div class="bottomArrow">
-                <img src="./imgs/right-arrow.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section id="teachers">
-        <div class="teachers" id="teachers">
-            <div class="teachersTop">
-                <h1>Манай <strong>БАГШ НАР</strong></h1>
-                <p>Эрч хүчтэй, туршлагатай хамт олноор бид багаа бүрдүүллээ</p>
-            </div>
-            <div class="teachersMiddle">
-
-                <div class="swiper">
-
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <a href="./">
-                                    <div class="grayscale"></div>
-                                </a>
-                                <img src="/imgs/teachers/muba.png" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox muba ">
 
                                 <div class="teachersText">
+                                    <a href="muba.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
                                     <h1>Г.Мөнхбаяр</h1>
-                                    <div class="line"></div>
-                                    <h2>Ахлах Багш</h2>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <a href="./boldbaatar.html">
-                                    <div class="grayscale"></div>
-                                </a>
-                                <img src="/imgs/teachers/boldbaatar.png" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox boldbaatar ">
 
-                                <div class="teachersText">
+                                <div class="teachersText ">
+                                    <a href="boldbaatar.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
                                     <h1>С.Болдбаатар</h1>
-                                    <div class="line"></div>
-                                    <h2>Ахлах Багш</h2>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <a href="./anu.html">
-                                    <div class="grayscale"></div>
-                                </a>
-                                <img src="/imgs/teachers/anu.png" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox anu ">
 
-                                <div class="teachersText">
+
+                                <div class="teachersText ">
+                                    <a href="anu.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
                                     <h1>Б.Ану</h1>
-                                    <div class="line"></div>
-                                    <h2>Багш</h2>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <a href="./enkhbayr.html">
-                                    <div class="grayscale"></div>
-                                </a>
-                                <img src="/imgs/teachers/enkhbayr.png" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox enkhbayr ">
 
-                                <div class="teachersText">
-                                    <h1>Энхбаяр</h1>
-                                    <div class="line"></div>
-                                    <h2>Багш</h2>
+                                <div class="teachersText ">
+                                    <a href="enkhbayr.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
+                                    <h1>Г.Энхбаяр</h1>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <a href="./batnym.html">
-                                    <div class="grayscale"></div>
-                                </a>
-                                <img src="/imgs/teachers/batnym.png" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox batnym ">
 
-                                <div class="teachersText">
+
+                                <div class="teachersText ">
+                                    <a href="batnym.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
                                     <h1>М.Батням</h1>
-                                    <div class="line"></div>
-                                    <h2>Багш</h2>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <a href="./">
-                                    <div class="grayscale"></div>
-                                </a>
-                                <img src="/imgs/Teacher Batnyam.jpeg" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox bazarwaani ">
 
-                                <div class="teachersText">
-                                    <h1>Базарваань</h1>
-                                    <div class="line"></div>
-                                    <h2>Багш</h2>
+
+                                <div class="teachersText ">
+                                    <a href="bazarwaani.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
+                                    <h1>Ц.Базарваань</h1>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="teachersBox">
-                                <div class="grayscale"></div>
-                                <img src="/imgs/Teacher Batnyam.jpeg" alt="teachers">
+                        <div class="swiper-slide ">
+                            <div class="teachersBox monkhtsogt ">
 
-                                <div class="teachersText">
-                                    <h1>Мөнхцогт</h1>
-                                    <div class="line"></div>
-                                    <h2>Багш</h2>
+
+                                <div class="teachersText ">
+                                    <a href="monkhtsogt.html">
+                                        <div class="grayscaleEnviTeachers ">
+                                        </div>
+                                    </a>
+                                    <h1>Б.Мөнхцогт</h1>
+                                    <div class="line "></div>
+                                    <h2>Дасгалжуулагч</h2>
                                 </div>
+
                             </div>
                         </div>
 
@@ -251,33 +343,87 @@
 
                 </div>
             </div>
-            <div class="bottomArrow">
-                <img src="./imgs/right-arrow.png" alt="Arrow">
+            <div class="bottomArrow ">
+                <img src="./imgs/right-arrow.png " alt="Arrow ">
             </div>
         </div>
     </section>
 
-    <section id="priority">
-        <div class="priority" id="priority">
-            <div class="priorityTop">
-                <h1>Бидний <strong>ҮНЭ ЦЭН</strong></h1>
-                <p>Манай сургалтаар олж авах бодит үнэ цэн</p>
+    <section id="enviroment ">
+        <div class="enviBack"></div>
+        <div class="enviroment">
+            <div class="enviromentTop ">
+                <h1>Сургалтын <strong>ОРЧИН</strong></h1>
+                <p>Зорилгодоо нийцсэн сургалтаа өгөхөд шатартаа дуртай суралцагч хэрэгтэй. <br> Шатартаа дуртай суралцагчийг бий болгоход тансаг, сонгодог орчин нэг хүчин зүйл болно. </p>
+            </div>
+            <div class="show ">
+                <div class="overlay "></div>
+                <div class="img-show ">
+                    <span>X</span>
+                    <img src=" ">
+                </div>
+            </div>
+            <div class="enviromentMiddle ">
+
+                <div class="enviromentBox ">
+
+                    <div class="borderTop"></div>
+                    <img src="/imgs/CompressedImg/orchin1-min.webp " alt=" ">
+
+                    <div class="grayscaleEnvi "></div>
+                    <h1>Танхим 1</h1>
+
+                </div>
+                <div class="enviromentBox ">
+
+                    <div class="grayscaleEnvi "></div>
+                    <img src="/imgs/CompressedImg/orchin2-min.webp " alt=" ">
+                    <h1>Танхим 2</h1>
+
+                </div>
+                <div class="enviromentBox ">
+
+                    <div class="grayscaleEnvi "></div>
+                    <img src="/imgs/CompressedImg/orchin3-min.webp " alt=" ">
+                    <h1>Танхим 3</h1>
+
+                </div>
+                <div class="enviromentBox ">
+
+                    <div class="grayscaleEnvi "></div>
+                    <img src="/imgs/CompressedImg/orchin4-min.webp " alt=" ">
+                    <h1>Танхим 4</h1>
+                    <div class="borderBottom"></div>
+                </div>
+
+            </div>
+            <div class="bottomArrow ">
+                <img src="./imgs/right-arrow.png " alt=" ">
+            </div>
+        </div>
+    </section>
+
+    <section id="priority ">
+        <div class="priority " id="priority ">
+            <div class="priorityTop ">
+                <h1>Сургалтын <strong>ОНЦЛОГ</strong></h1>
+                <p>Сургалтдаа шингээсэн инноваци ба шатраар дамжуулан танд хүргэх амьдралын чадварууд</p>
             </div>
 
-            <div class="priorityContainer">
-                <div class="priorityCenterImg">
-                    <img src="./imgs/Logo.png" alt="Logo">
+            <div class="priorityContainer ">
+                <div class="priorityCenterImg ">
+                    <img src="./imgs/Logo.png " alt="Logo ">
                 </div>
-                <div class="iq">
+                <div class="iq ">
 
-                    <div class="container">
-                        <div class="interior">
-                            <a class="btn" style="font-size: 32px;" href="#open-modal">IQ</a>
+                    <div class="container ">
+                        <div class="interior ">
+                            <a class="btn " style="font-size: 32px; " href="#open-modal ">IQ</a>
                         </div>
                     </div>
-                    <div id="open-modal" class="modal-window">
+                    <div id="open-modal " class="modal-window ">
                         <div>
-                            <a href="#priority" title="Close" class="modal-close">Хаах</a>
+                            <a href="#priority " title="Close " class="modal-close ">Хаах</a>
 
                             <div>
                                 <p>Олон зүй тогтол бүхий шатрын бодлого, төгсгөлийн онол нь зүүн тархи хөгжүүлэх олон талт дасгал ажил, тесттэй нягт уялдаатайг харуулж, мянган мянган бодлогоор тооцооллыг загварчилах</p>
@@ -287,16 +433,16 @@
                     </div>
 
                 </div>
-                <div class="eq">
+                <div class="eq ">
 
-                    <div class="container">
-                        <div class="interior">
-                            <a class="btn" style="font-size: 32px;" href="#open-modal2">EQ</a>
+                    <div class="container ">
+                        <div class="interior ">
+                            <a class="btn " style="font-size: 32px; " href="#open-modal2 ">EQ</a>
                         </div>
                     </div>
-                    <div id="open-modal2" class="modal-window">
+                    <div id="open-modal2 " class="modal-window ">
                         <div>
-                            <a href="#priority" title="Close" class="modal-close">Хаах</a>
+                            <a href="#priority " title="Close " class="modal-close ">Хаах</a>
 
                             <div>
                                 <p>Шатрын тоглолтын явц дунд тоглогч хэрхэн сэтгэл хөдлөлд автаж шийдвэр гаргаж байна, өрсөлдөгчөө хэрхэн мэдэрч байна зэрэг баруун тархины /EQ/ хөгжилд шатар хэрхэн нөлөөлж буйг судалж, тоглолт бүр дээр дүн шинжилгээ хийн
@@ -307,16 +453,16 @@
                     </div>
 
                 </div>
-                <div class="gt">
+                <div class="gt ">
 
-                    <div class="container">
-                        <div class="interior">
-                            <a class="btn" href="#open-modal3">Game Theory</a>
+                    <div class="container ">
+                        <div class="interior ">
+                            <a class="btn " href="#open-modal3 ">Game Theory</a>
                         </div>
                     </div>
-                    <div id="open-modal3" class="modal-window">
+                    <div id="open-modal3 " class="modal-window ">
                         <div>
-                            <a href="#priority" title="Close" class="modal-close">Хаах</a>
+                            <a href="#priority " title="Close " class="modal-close ">Хаах</a>
 
                             <div>
                                 <p>Аливаа шатрын тактикийн буюу тэсрэлттэй эсвэл стратегийн буюу төлөвлөгөө боловсруулах зэрэг байрлалд довтлогооны шийдвэр гаргахдаа хэрхэн хамгийн бага эрсдэл, хамгийн өндөр өгөөжтэй нүүдлийг олж сонгох талаар зааж сургах</p>
@@ -327,16 +473,16 @@
                     </div>
 
                 </div>
-                <div class="ct">
+                <div class="ct ">
 
-                    <div class="container">
-                        <div class="interior">
-                            <a class="btn" href="#open-modal4">Critical Thinking</a>
+                    <div class="container ">
+                        <div class="interior ">
+                            <a class="btn " href="#open-modal4 ">Critical Thinking</a>
                         </div>
                     </div>
-                    <div id="open-modal4" class="modal-window">
+                    <div id="open-modal4 " class="modal-window ">
                         <div>
-                            <a href="#priority" title="Close" class="modal-close">Хаах</a>
+                            <a href="#priority " title="Close " class="modal-close ">Хаах</a>
 
                             <div>
                                 <p>Бэлтгэлийн үйл явц болон шатрын олон талт гарааны онол, дунд үеийн ойлгомжгүй нөхцөлд шүүмжит бодлоор хандаж, түүнийг шинжилэх арга ухаанд суралцах мөн аливаа алдаа оноотой болон хожлын тоглолтоо тунгаан бодож эргэцүүлэх
@@ -347,16 +493,16 @@
                     </div>
 
                 </div>
-                <div class="gm">
+                <div class="gm ">
 
-                    <div class="container">
-                        <div class="interior">
-                            <a class="btn" href="#open-modal5">Growth Mindset</a>
+                    <div class="container ">
+                        <div class="interior ">
+                            <a class="btn " href="#open-modal5 ">Growth Mindset</a>
                         </div>
                     </div>
-                    <div id="open-modal5" class="modal-window">
+                    <div id="open-modal5 " class="modal-window ">
                         <div>
-                            <a href="#priority" title="Close" class="modal-close">Хаах</a>
+                            <a href="#priority " title="Close " class="modal-close ">Хаах</a>
 
                             <div>
                                 <p>Суралцагч нар дасгал ажлууд хийх болон тэмцээн уралдаанд олон олон унаж босож тэмцэж буй үед багшийн өгч буй зөвлөгөө нь хүүхдэд өсөн, хөгжих сэтгэлгээг /Growth Mindset/ хэрхэн суулгах зэргийг сургалтын системдээ бага багаар
@@ -373,74 +519,112 @@
         </div>
     </section>
 
-    <section id="lesson">
-        <div class="lesson" id="lesson">
-            <div class="lessonTop">
+    <section id="lesson ">
+        <div class="lesson " id="lesson ">
+            <div class="lessonTop ">
                 <h1>Бүх шатны <strong>СУРГАЛТ</strong></h1>
-                <p>Бүх насны ангилалд бүх түвшинд бид хичээллэж байна</p>
+                <p>Дарж ороод бүртгүүлээрэй</p>
             </div>
-            <div class="lessonMiddle">
-                <div class="lessonBox box">
-                    <img src="./imgs/rook.png" alt="Rook">
-                    <h1>Мэргэжилтэн бэлтгэх анги</h1>
-                    <p>Академид 1-2 жил үндсэн ангид хичээллэсэн хүүхдүүд. Нухацтай гэрээний доор өндөр түвшинд бэлдэнэ.
-                    </p>
-                </div>
-                <div class="lessonBox2 box">
-                    <img src="./imgs/bishop.png" alt="Bishop">
-                    <h1>Үндсэн анги</h1>
-                    <p>Олон цаг хичээллэж хурдан хугацаанд өсөн хөгжих зорилготой. Энэ ангид суралцаж эхлэхэд ямар ч түвшинтэй байж болно.
-                    </p>
-                </div>
-                <div class="lessonBox3 box">
-                    <img src="./imgs/king.png" alt="King">
-                    <h1>Амралтын өдрийн анги</h1>
-                    <p>Үнэхээр шатарт хайртай даанч ажлын өдөр хичээл ихтэй хүүхдүүдийн мөрөөдөл болсон анги.
-                    </p>
-                </div>
-                <div class="lessonBox4 box">
-                    <img src="./imgs/queen.png " alt="Queen">
-                    <h1>Цахим анги</h1>
-                    <p>Дэлхийн өнцөг булан бүрээс оролцдог. Анхан шатнаас эхэлж шатарт дурлуулдаг анги.
-                    </p>
-                </div>
-                <div class="lessonBox5 box">
-                    <img src="./imgs/rook.png " alt="Rook">
-                    <h1>Ганцаарчилсан</h1>
-                    <p>Томоохон тэмцээнд оролцох, цолны норм биелүүлэх, хурдтай суралцах гэх мэт мэргэжлийн түвшинд тулж хичээллэдэг сургалт.
-                    </p>
-                </div>
-                <div class="lessonBox6 box">
-                    <img src="./imgs/pawn.png " alt="Pawn">
-                    <h1>Насанд хүрэгчидийн анги</h1>
-                    <p>20 жилийн туршлага дээр үндэслэн бий болгосон үүсгэн байгуулагч Мөнхбаяр багшийн гардан ордог анги.
-                    </p>
-                </div>
+            <div class="lessonMiddle ">
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2F8X3fPX3yTdgYsgWE8%3Ffbclid%3DIwAR3obYbq4nM6vTjOmz0B3GsiM09Chxwr8xRfK2GcvvgI5XXGQ1MSQbRTEHI&h=AT2XEihERXtualaRjU_zpfmGTVR8LRTOb3flwa5hF5O50-eabOyTO1Oy3p2qSP1vi2YQxcEjuVNuWA8K1CCKeS6IDXyzKfYsEmHdKS9ZLgFnavcA8JWLqxfcRkMPdz9r4VrI5YFMk_c-Jh0 "
+                    target="_blank ">
+                    <div class="lessonBox box ">
+                        <img src="./imgs/rook.png " alt="Rook ">
+                        <h1>Мэргэжилтэн бэлтгэх анги</h1>
+                        <p>Академид 1-2 жил үндсэн ангид хичээллэсэн хүүхдүүд. Нухацтай гэрээний доор өндөр түвшинд бэлдэнэ.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2F8X3fPX3yTdgYsgWE8%3Ffbclid%3DIwAR3obYbq4nM6vTjOmz0B3GsiM09Chxwr8xRfK2GcvvgI5XXGQ1MSQbRTEHI&h=AT2XEihERXtualaRjU_zpfmGTVR8LRTOb3flwa5hF5O50-eabOyTO1Oy3p2qSP1vi2YQxcEjuVNuWA8K1CCKeS6IDXyzKfYsEmHdKS9ZLgFnavcA8JWLqxfcRkMPdz9r4VrI5YFMk_c-Jh0 "
+                    target="_blank ">
+                    <div class="lessonBox2 box ">
+                        <img src="./imgs/bishop.png " alt="Bishop ">
+                        <h1>Үндсэн анги</h1>
+                        <p>Олон цаг хичээллэж хурдан хугацаанд өсөн хөгжих зорилготой. Энэ ангид суралцаж эхлэхэд ямар ч түвшинтэй байж болно.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FyKGCa6HBdmq777FA6%3Ffbclid%3DIwAR1CuPIB_rE_IrVyypp1k90UEyl3fmTE_-oL-Ebl542Buj8Qwzmd7Cl7oxE&h=AT0WXz4HQHmhW3tanxHA8m-c0Tk6fEFwg-dp0Dxw5-OBpi4g1eFoXS570kmqL4EIKjm5g4F8x45R9zEpwZcbeemHnmcJCMdVdFMI3IMOZDqU5juxPib0YodCCAyPI6QPk3c9Fg "
+                    target="_blank ">
+                    <div class="lessonBox3 box ">
+                        <img src="./imgs/king.png " alt="King ">
+                        <h1>Амралтын өдрийн анги</h1>
+                        <p>Үнэхээр шатарт хайртай даанч ажлын өдөр хичээл ихтэй хүүхдүүдийн мөрөөдөл болсон анги.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FnEJmcfQfRNSkGtcJ6%3Ffbclid%3DIwAR0jYqwtcLe3sZOLhMXMqJYCjZ-Kyuu7UTAiuWDQguwbaPjjFy-a_MnLuFw&h=AT0WXz4HQHmhW3tanxHA8m-c0Tk6fEFwg-dp0Dxw5-OBpi4g1eFoXS570kmqL4EIKjm5g4F8x45R9zEpwZcbeemHnmcJCMdVdFMI3IMOZDqU5juxPib0YodCCAyPI6QPk3c9Fg "
+                    target="_blank ">
+                    <div class="lessonBox4 box ">
+                        <img src="./imgs/queen.png " alt="Queen ">
+                        <h1>Цахим анги</h1>
+                        <p>Дэлхийн өнцөг булан бүрээс оролцдог. Анхан шатнаас эхэлж шатарт дурлуулдаг анги.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2Fs8tkpJvCz7czNkQa8%3Ffbclid%3DIwAR2kCjPqlsCr1D4VjTc98cDL7wZUO0b8o3ThmINNew9Eq8IMaecGho01694&h=AT0WXz4HQHmhW3tanxHA8m-c0Tk6fEFwg-dp0Dxw5-OBpi4g1eFoXS570kmqL4EIKjm5g4F8x45R9zEpwZcbeemHnmcJCMdVdFMI3IMOZDqU5juxPib0YodCCAyPI6QPk3c9Fg "
+                    target="_blank ">
+                    <div class="lessonBox5 box ">
+                        <img src="./imgs/rook.png " alt="Rook ">
+                        <h1>Ганцаарчилсан</h1>
+                        <p>Томоохон тэмцээнд оролцох, цолны норм биелүүлэх, хурдтай суралцах гэх мэт мэргэжлийн түвшинд тулж хичээллэдэг сургалт.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2Ff5krLuLNJvry2Yfx9%3Ffbclid%3DIwAR2NL2jUzHGmTGkcFPaBM_RpbRvt5hOSxKOJal_y58oDUqrfGgPkOyJk0jk&h=AT0WXz4HQHmhW3tanxHA8m-c0Tk6fEFwg-dp0Dxw5-OBpi4g1eFoXS570kmqL4EIKjm5g4F8x45R9zEpwZcbeemHnmcJCMdVdFMI3IMOZDqU5juxPib0YodCCAyPI6QPk3c9Fg "
+                    target="_blank ">
+                    <div class="lessonBox6 box ">
+                        <img src="./imgs/pawn.png " alt="Pawn ">
+                        <h1>Насанд хүрэгчидийн анги</h1>
+                        <p>20 жилийн туршлага дээр үндэслэн бий болгосон үүсгэн байгуулагч Мөнхбаяр багшийн гардан ордог анги.
+                        </p>
+                    </div>
+                </a>
 
             </div>
     </section>
 
     <footer>
-        <section id="contact">
-            <div class="contact">
-                <img style="width: 70%;position: absolute;right: 0;z-index: 0" src="./img/rocketFooter.svg" alt="">
-                <div class="contactImg">
-                    <img src="./imgs/Logo.png" alt="">
-                    <div class="contactLogo">
-                        <h5>Email: <a href="">ufestartup_club@ufe.edu.mn </a></h5>
-                        <h5>Phone: <a href="">80200003 89690915</a></h5>
+        <section id="contact ">
+            <div class="contact ">
+
+                <div class="contactImg ">
+                    <div class="contactImgContainer">
+                        <img src="./imgs/LogoChessCut.png " style="margin-left: 20%;" alt=" ">
+                    </div>
+                    <div class="contactLogo ">
+                        <ul>
+                            <li>
+                                <img src="./imgs/icon/mail.png" alt="">
+                                <a href="">info@Steinitzmca.mn</a>
+                            </li>
+                            <li>
+                                <img src="./imgs/icon/phone.png" alt="">
+                                <a href="">+976 8600-3553</a>
+                            </li>
+                            <li>
+                                <img src="./imgs/icon/facebook.png" alt="">
+                                <a href="">Стейнитц Монголын Шатрын Академи</a>
+                            </li>
+                            <li>
+                                <img src="./imgs/icon/instagram.png" alt="">
+                                <a href="">Steinitz MCA</a>
+                            </li>
+                            <li>
+                                <img src="./imgs/icon/youtube.png" alt="">
+                                <a href="">Munkhbayar's Chess</a>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>
-                <div class="contactText">
-                    <div class="contactContainer">
-                        <h1>Start Up Club</h1>
-                        <ul>
-                            <li><a href="https://www.facebook.com/UFE.Startup">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/ufestartup.club/">Instagram</a></li>
-                            <li><a href="https://discord.gg/ ">Discord</a></li>
-                            <li><a href="">Байршил</a></li>
-                        </ul>
+                <div class="contactText ">
+                    <div class="contactContainer ">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1337.5283937280951!2d106.8873476441914!3d47.89658616542621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693a6f94647ab%3A0x32cec5e9fa209f54!2sTV5%20television!5e0!3m2!1sen!2smn!4v1636457753154!5m2!1sen!2smn"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                        <img src="./imgs/maps.jpg" alt="">
+                        <h1>Манай хаяг:</h1>
+                        <p>Хан Уул дүүрэг, Таван богд группын замын урд TV5 телевизийн 8 давхарт</p>
                     </div>
 
                 </div>
@@ -450,8 +634,13 @@
     </footer>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+    <script type="text/javascript " src="https://code.jquery.com/jquery-1.12.1.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js "></script>
     <script src="./js/swiper.js "></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js "></script>
+
+
 
 </body>
 
