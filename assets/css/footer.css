@@ -1,0 +1,155 @@
+/* footer {
+    margin-top: 100%;
+} */
+
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: #11110f;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.544), rgba(0, 0, 0, 0.687)), url('/assets/imgs/footerBack.jpeg');
+}
+
+.swiper-slide .contact {
+    display: flex;
+    align-items: flex-end;
+    background-color: #11110f;
+    height: 50vh;
+    margin-top: 60vh;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    padding: 5% 0;
+}
+
+.contactContainer {
+    text-align: center;
+    padding: 5%;
+}
+
+.contactContainer p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.contactContainer h1 {
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.contactContainer img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 80vh;
+    }
+    .contactContainer {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .contactContainer h1 {
+        font-size: 18px;
+    }
+}
+
+.contactText {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    z-index: 2;
+}
+
+@media screen and (max-width:600px) {
+    .contactText {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+
+.contactText h1 {
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.contactText li {
+    color: gray;
+    line-height: 3;
+    transition: border-bottom 1s ease-in-out;
+}
+
+.contactText li:hover {
+    border-bottom: 1px solid black;
+}
+
+.contactText ul {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactText ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .contactText ul {
+        margin-top: 0%;
+        font-size: 14px;
+    }
+}
+
+.contactImg {
+    width: 50%;
+}
+
+@media screen and (max-width:600px) {
+    .contactImg {
+        align-items: center;
+        padding-left: 0%;
+    }
+}
+
+.contactImgContainer {
+    width: 50%;
+}
+
+.contactImg img {
+    width: 100%;
+}
+
+.contactLogo {
+    margin-top: 10%;
+    line-height: 2;
+    margin-left: 20%;
+}
+
+.contactLogo a {
+    text-decoration: none;
+    color: gray;
+}
+
+.contactLogo ul li {
+    display: flex;
+    margin: 10px;
+}
+
+.contactLogo ul li a {
+    margin-left: 5%;
+}
+
+.contactLogo ul img {
+    width: 5%;
+}

@@ -1,0 +1,180 @@
+/*About Us*/
+
+.aboutUs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(2, 7, 87);
+    padding: 0 5%;
+    height: 40vw;
+}
+
+@media screen and (max-width:600px) {
+    .aboutUs {
+        height: 130vh;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.aboutUsContainer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .aboutUsContainer {
+        height: 120vh;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.aboutUs h1 {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutUs p {
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    margin-top: 10%;
+}
+
+@media screen and (max-width:600px) {
+    .aboutUs h1 {
+        font-size: 5vw;
+    }
+    .aboutUs p {
+        font-size: 4vw;
+        width: 80%;
+    }
+}
+
+.aboutUsMiddle img {
+    width: 70%;
+}
+
+.aboutUsSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.aboutUsSide .line {
+    border: 1px solid red;
+    width: 50%;
+    margin: 5%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.Aleft {
+    width: 100%;
+    padding: 0;
+    transform: scaleX(-1);
+    position: absolute;
+    height: 100%;
+}
+
+.Aleft img {
+    max-width: 100%;
+    margin-left: 46%;
+    max-height: 110%;
+}
+
+.Bleft {
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+}
+
+.Bleft img {
+    max-width: 100%;
+    margin-left: 20%;
+    max-height: 110%;
+    padding-right: 20%;
+}
+
+.whiteBack {
+    width: 30%;
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    float: right;
+    height: 100%;
+    clip-path: polygon(0 22%, 0 0, 100% 0, 100% 100%, 0 100%, 0 72%, 18% 60%, 18% 34%);
+}
+
+.whiteBackB {
+    width: 30%;
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    float: left;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 22%, 82% 34%, 82% 58%, 100% 70%, 100% 100%, 0 100%, 0 0);
+}
+
+.aboutUs b {
+    font-weight: bold;
+}
+
+.aboutUsMiddle {
+    position: absolute;
+    width: 15%;
+    left: 42.5%;
+    top: 24%;
+    z-index: 4;
+}
+
+.aboutUsMiddle img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .aboutUs .bottomArrow img {
+        width: 5%;
+    }
+    .aboutUsSide {
+        width: 100%;
+        text-align: justify;
+        align-items: center;
+    }
+    .aboutUsMiddle {
+        width: 100%;
+    }
+}
+
+.borderTop {
+    width: 15%;
+    height: 40%;
+    border: 5px solid red;
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: 9.7%;
+}
+
+.borderBottom {
+    width: 15%;
+    height: 40%;
+    border: 5px solid red;
+    position: absolute;
+    z-index: -1;
+    bottom: -1%;
+    right: 9.7%;
+}
