@@ -1,0 +1,93 @@
+.containerBottom {
+    width: 80%;
+}
+
+.personalComment p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.containerTopText button {
+    width: 40%;
+    background-color: white;
+    border: none;
+    margin-top: 10%;
+    clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+    font-size: 32px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.containerTopText {
+    margin-bottom: 10%;
+}
+
+.line {
+    margin: 5%;
+}
+
+#home {
+    height: 0;
+}
+
+.lessonBack {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/weBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lessonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50vh;
+    align-items: center;
+}
+
+.lessonContainerLeft {
+    width: 35%;
+}
+
+.lessonContainerLeft h1 {
+    background-color: #435475;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.lessonContainerLeft ul li {
+    background-color: #1c2329;
+    border-bottom: 1px solid white;
+    color: rgb(214, 214, 214);
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.lessonContainerRight {
+    width: 55%;
+}
+
+.lessonContainerRight video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lessonMiddle a {
+    width: 30%;
+}
+
+.classTitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.classTitle .boxText h1 {
+    font-size: 16px;
+}

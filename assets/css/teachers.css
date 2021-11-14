@@ -26,19 +26,6 @@ body {
     background-color: #fffafa;
 }
 
-.swiperTeachers {
-    width: 100%;
-    height: 125vh;
-}
-
-.swiperTeachers .swiper-button-next {
-    top: 90%;
-    left: 50%;
-    transform: rotate(90deg);
-    background-image: url("/imgs/white-arrow.png") !important;
-    color: white;
-}
-
 @media screen and (max-width:600px) {
     .swiperTeachers {
         width: 100%;
@@ -182,7 +169,7 @@ a {
 }
 
 body {
-    background-image: url('/imgs/mainBack2.jpg');
+    background-image: url('../imgs/mainBack2.jpg');
 }
 
 .grayscale {
@@ -212,43 +199,43 @@ body {
 }
 
 .muba {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/mubaWithBack1.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .anu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/anuBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/anuBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .batnym {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/batnymBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/batnymBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .boldbaatar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/boldbaatarBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/boldbaatarBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .enkhbayar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/enkhbayarBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/enkhbayarBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bazarwaani {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/bazarwaaniBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/bazarwaaniBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .monkhtsogt {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('/imgs/teachers/mmonhtsogtBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mmonhtsogtBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
