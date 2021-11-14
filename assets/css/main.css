@@ -77,6 +77,8 @@ body {
     justify-content: space-around;
     z-index: 1;
     font-size: 0.9vw;
+    height: 5vh;
+    align-items: center;
 }
 
 .navList ul a {
@@ -136,6 +138,21 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.onlineShop {
+    background-color: white;
+    color: black;
+    clip-path: polygon(5% 0, 100% 0, 100% 66%, 96% 100%, 0 99%, 0 32%);
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.onlineShop a {
+    color: black !important;
+    padding: 20px;
+    font-weight: bold;
 }
 
 iframe {
