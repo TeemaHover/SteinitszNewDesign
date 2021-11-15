@@ -30,7 +30,7 @@ const aboutsiper = new Swiper('.swiperAbout', {
 
 
 const swiper = new Swiper('.swiper', {
-
+    loop: true,
     direction: 'horizontal',
 
     breakpoints: {
@@ -50,33 +50,18 @@ const swiper = new Swiper('.swiper', {
         },
     },
     autoplay: {
-        delay: 2000,
+        delay: 1,
+        disableOnInteraction: false,
     },
-
+    speed: 1000,
+    grabCursor: true,
 
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
 
-
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
-
-document.getElementById("swiper").onmouseover = function() { mouseOver() };
-document.getElementById("swiper").onmouseout = function() { mouseOut() };
-
-function mouseOver() {
-    swiper.autoplay.stop();
-    Homeswiper.autoplay.stop();
-}
-
-function mouseOut() {
-    swiper.autoplay.start();
-    Homeswiper.autoplay.start();
-}
+})
 
 const swiper2 = new Swiper('.swiperTeachers', {
 
@@ -89,4 +74,5 @@ const swiper2 = new Swiper('.swiperTeachers', {
     freeMode: true,
     mousewheel: true,
 
-});
+
+})

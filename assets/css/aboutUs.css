@@ -26,6 +26,7 @@
     margin: 0 auto;
     background-color: white;
     height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 @media screen and (max-width:600px) {
@@ -68,13 +69,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 10%;
     height: 70%;
     overflow: hidden;
+    padding: 0 10%;
 }
 
 .aboutUsSide .line {
-    border: 1px solid red;
+    border: 2px solid red;
     width: 50%;
     margin: 5%;
     margin-left: 0;
@@ -110,23 +111,26 @@
 }
 
 .whiteBack {
-    width: 30%;
+    width: 35%;
     background-color: white;
     z-index: 3;
     position: relative;
     float: right;
     height: 100%;
     clip-path: polygon(0 22%, 0 0, 100% 0, 100% 100%, 0 100%, 0 72%, 18% 60%, 18% 34%);
+    padding-right: 5%;
 }
 
 .whiteBackB {
-    width: 30%;
+    width: 35%;
     background-color: white;
     z-index: 3;
     position: relative;
     float: left;
     height: 100%;
     clip-path: polygon(100% 0, 100% 22%, 82% 34%, 82% 58%, 100% 70%, 100% 100%, 0 100%, 0 0);
+    text-align: right;
+    padding-left: 5%;
 }
 
 .aboutUs b {
@@ -165,7 +169,7 @@
     border: 5px solid red;
     position: absolute;
     z-index: -1;
-    top: -1%;
+    top: -0.9%;
     left: 9.7%;
 }
 
@@ -175,6 +179,6 @@
     border: 5px solid red;
     position: absolute;
     z-index: -1;
-    bottom: -1%;
+    bottom: -0.9%;
     right: 9.7%;
 }

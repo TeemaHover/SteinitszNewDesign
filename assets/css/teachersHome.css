@@ -1,48 +1,48 @@
 .muba {
     background-image: url('/assets/imgs/teachers/muba.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }
 
 .boldbaatar {
     background-image: url('/assets/imgs/teachers/boldbaatar.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }
 
 .anu {
     background-image: url('/assets/imgs/teachers/anu.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }
 
 .enkhbayr {
     background-image: url('/assets/imgs/teachers/enkhbayar.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }
 
 .batnym {
     background-image: url('/assets/imgs/teachers/batnym.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }
 
 .bazarwaani {
-    background-image: url('/assets/imgs/teachers/bazarwaani.jpg');
+    background-image: url('/assets/imgs/teachers/monhtsogt.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }
 
 .monkhtsogt {
-    background-image: url('/assets/imgs/teachers/monhtsogt.jpg');
+    background-image: url('/assets/imgs/teachers/bazarwaani.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     background-position-x: 50%;
 }

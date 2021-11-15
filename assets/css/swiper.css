@@ -12,8 +12,12 @@
 
 .Homeswiper {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     overflow-x: hidden;
+}
+
+.Homeswiper .swiper-slide {
+    height: 120vh;
 }
 
 .Homeswiper .swiper-pagination {

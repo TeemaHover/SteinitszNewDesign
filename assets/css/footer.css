@@ -5,11 +5,13 @@
 .contact {
     display: flex;
     align-items: center;
-    background-color: #11110f;
+    background-color: #131320;
     width: 100%;
     color: white;
     z-index: 2;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.544), rgba(0, 0, 0, 0.687)), url('/assets/imgs/footerBack.jpeg');
+    background-image: linear-gradient(to left, #131320f8, #1313208e), url('/assets/imgs/footerBack.jpeg');
+    background-repeat: no-repeat;
+    background-size: 65% 100%;
 }
 
 .swiper-slide .contact {
@@ -26,22 +28,23 @@
 
 .contactContainer {
     text-align: center;
-    padding: 5%;
+    padding: 10%;
 }
 
 .contactContainer p {
     width: 80%;
     margin: 0 auto;
     margin-top: 2%;
+    font-size: 11px;
 }
 
 .contactContainer h1 {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10%;
 }
 
 .contactContainer img {
-    width: 100%;
+    width: 80%;
 }
 
 @media screen and (max-width:600px) {
@@ -76,7 +79,7 @@
 }
 
 .contactText h1 {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     width: 100%;
 }
@@ -148,8 +151,9 @@
 
 .contactLogo ul li a {
     margin-left: 5%;
+    font-size: 13px;
 }
 
 .contactLogo ul img {
-    width: 5%;
+    width: 4%;
 }
