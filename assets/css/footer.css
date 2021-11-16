@@ -12,6 +12,7 @@
     background-image: linear-gradient(to left, #131320f8, #1313208e), url('/assets/imgs/footerBack.jpeg');
     background-repeat: no-repeat;
     background-size: 65% 100%;
+    padding: 2% 0;
 }
 
 .swiper-slide .contact {
@@ -29,6 +30,7 @@
 .contactContainer {
     text-align: center;
     padding: 10%;
+    width: 60%;
 }
 
 .contactContainer p {
@@ -44,7 +46,7 @@
 }
 
 .contactContainer img {
-    width: 80%;
+    width: 100%;
 }
 
 @media screen and (max-width:600px) {

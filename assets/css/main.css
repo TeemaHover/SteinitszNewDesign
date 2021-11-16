@@ -189,6 +189,7 @@ iframe {
     background-image: url('/assets/imgs/button/Back_2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-left: -1%;
 }
 
 .slide3 {
@@ -375,7 +376,6 @@ iframe {
     color: rgb(2, 7, 87);
     position: relative;
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    background-color: white;
     background-image: url('/assets/imgs/mainBack.jpeg');
     background-attachment: fixed;
 }
@@ -572,6 +572,7 @@ iframe {
     color: white;
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url('/assets/imgs/mainBack2.jpg');
+    background-attachment: fixed;
 }
 
 .teachersTop {

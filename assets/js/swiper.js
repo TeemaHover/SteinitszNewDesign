@@ -6,6 +6,11 @@ const Homeswiper = new Swiper('.Homeswiper', {
     autoplay: {
         delay: 2000,
     },
+    speed: 2000,
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
 
     pagination: {
         el: '.swiper-pagination',
@@ -50,10 +55,10 @@ const swiper = new Swiper('.swiper', {
         },
     },
     autoplay: {
-        delay: 1,
+        delay: 0,
         disableOnInteraction: false,
     },
-    speed: 1000,
+    speed: 4000,
     grabCursor: true,
 
     navigation: {

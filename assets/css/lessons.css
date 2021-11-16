@@ -9,7 +9,7 @@
 }
 
 .containerTopText a {
-    width: 50%;
+    width: 100%;
 }
 
 .containerTopText button {
@@ -25,7 +25,7 @@
 }
 
 .containerTopText {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .line {
@@ -101,6 +101,7 @@
 .anotherClass {
     width: 80%;
     margin: 0 auto;
+    margin-top: 10%;
 }
 
 .anotherClass .lessonMiddle {
