@@ -571,7 +571,7 @@ iframe {
     background-color: #131320;
     color: white;
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url('/assets/imgs/mainBack2.jpg');
+    background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url('/assets/imgs/mainBack2.png');
     background-attachment: fixed;
 }
 
@@ -950,8 +950,8 @@ iframe {
     justify-content: space-around;
     background: white;
     color: #131320;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('/assets/imgs/mainBack.jpeg');
+    background-attachment: fixed;
 }
 
 .lessonTop {
@@ -1146,6 +1146,10 @@ iframe {
     flex-direction: column;
     justify-content: space-around;
     width: 30%;
+}
+
+.lesson .enviBackGrayscale {
+    z-index: 0;
 }
 
 @media screen and (max-width:600px) {
