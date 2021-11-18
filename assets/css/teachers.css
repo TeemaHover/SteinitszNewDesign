@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 :root {
     --text-color: var(rgb(2, 7, 87))
 }
@@ -35,7 +42,11 @@ body {
 }
 
 .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: absolute;
     top: 0;
@@ -46,9 +57,15 @@ body {
 
 @media screen and (max-width:600px) {
     .navigation {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         position: relative;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 }
@@ -69,7 +86,11 @@ body {
 
 @media screen and (max-width:600px) {
     .navImg {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         width: 50%;
         position: absolute;
@@ -85,8 +106,11 @@ body {
 }
 
 .navList ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     z-index: 1;
     font-size: 0.9vw;
@@ -99,6 +123,9 @@ body {
 @media screen and (max-width:600px) {
     .navList ul {
         font-size: 3vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 }
@@ -129,6 +156,7 @@ body {
         margin-left: 10%;
     }
     .navList ul {
+        -ms-flex-pack: distribute;
         justify-content: space-around;
         height: 50vh;
         font-size: 16px;
@@ -154,10 +182,16 @@ a {
 }
 
 .navList ul li {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    -o-transition: transform .5s ease;
     transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .navList ul li:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
 
@@ -199,51 +233,75 @@ body {
 .containerTop {
     background-position: center;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 140vh;
+    -webkit-clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
 }
 
 .muba {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mubaWithBack1.jpeg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .anu {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/anuBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/anuBack.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/anuBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .batnym {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/batnymBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/batnymBack.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/batnymBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .boldbaatar {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/boldbaatarBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/boldbaatarBack.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/boldbaatarBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .enkhbayar {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/enkhbayarBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/enkhbayarBack.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/enkhbayarBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bazarwaani {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/bazarwaaniBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/bazarwaaniBack.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/bazarwaaniBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .monkhtsogt {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mmonhtsogtBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mmonhtsogtBack.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mmonhtsogtBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -251,6 +309,7 @@ body {
 
 @media screen and (max-width:600px) {
     .containerTop {
+        -o-object-fit: cover;
         object-fit: cover;
     }
 }
@@ -260,10 +319,18 @@ body {
     text-align: center;
     color: white;
     font-family: 'Lobster', cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 10%;
 }
@@ -321,7 +388,11 @@ body {
 }
 
 .yearLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: relative;
 }
@@ -337,8 +408,14 @@ body {
 .yearLineMiddle {
     width: 10%;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .modal-window {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.25);
@@ -9,6 +16,8 @@
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     z-index: 9999;
 }
@@ -20,6 +29,7 @@
 }
 
 .modal-window:target .iq {
+    -webkit-clip-path: none;
     clip-path: none;
 }
 
@@ -28,6 +38,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding: 2em;
     background: white;
@@ -66,8 +78,13 @@ a {
 }
 
 .priorityContainer .container {
+    display: -ms-grid;
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -93,8 +110,14 @@ small {
 }
 
 .interior {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-radius: 500px;
     color: black;

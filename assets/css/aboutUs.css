@@ -1,9 +1,25 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
 /*About Us*/
 
 .aboutUs {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     background-image: url('');
     background-size: cover;
@@ -16,7 +32,11 @@
 @media screen and (max-width:600px) {
     .aboutUs {
         height: 130vh;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 }
@@ -26,13 +46,19 @@
     margin: 0 auto;
     background-color: white;
     height: 100%;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 @media screen and (max-width:600px) {
     .aboutUsContainer {
         height: 120vh;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 }
@@ -66,8 +92,15 @@
 
 .aboutUsSide {
     width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: 70%;
     overflow: hidden;
@@ -85,6 +118,8 @@
 .Aleft {
     width: 100%;
     padding: 0;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
     transform: scaleX(-1);
     position: absolute;
     height: 100%;
@@ -117,6 +152,7 @@
     position: relative;
     float: right;
     height: 100%;
+    -webkit-clip-path: polygon(0 22%, 0 0, 100% 0, 100% 100%, 0 100%, 0 72%, 18% 60%, 18% 34%);
     clip-path: polygon(0 22%, 0 0, 100% 0, 100% 100%, 0 100%, 0 72%, 18% 60%, 18% 34%);
     padding-right: 5%;
 }
@@ -128,6 +164,7 @@
     position: relative;
     float: left;
     height: 100%;
+    -webkit-clip-path: polygon(100% 0, 100% 22%, 82% 34%, 82% 58%, 100% 70%, 100% 100%, 0 100%, 0 0);
     clip-path: polygon(100% 0, 100% 22%, 82% 34%, 82% 58%, 100% 70%, 100% 100%, 0 100%, 0 0);
     text-align: right;
     padding-left: 5%;
@@ -156,6 +193,8 @@
     .aboutUsSide {
         width: 100%;
         text-align: justify;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
     .aboutUsMiddle {
