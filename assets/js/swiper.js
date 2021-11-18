@@ -17,10 +17,8 @@ const Homeswiper = new Swiper('.Homeswiper', {
     },
 
 
-});
+})
 
-document.getElementById("Homeswiper").onmouseover = function() { mouseOver() };
-document.getElementById("Homeswiper").onmouseout = function() { mouseOut() };
 
 const aboutsiper = new Swiper('.swiperAbout', {
     direction: 'horizontal',

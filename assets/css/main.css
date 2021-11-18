@@ -797,20 +797,27 @@ iframe {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
-    width: 40%;
-    height: 60vh;
-    background: url('/assets/imgs/CompressedImg/backback.jpg') padding-box, linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    width: 80%;
     color: #313149;
     padding: 10px;
     border: 5px solid transparent;
     border-radius: 50%;
-    display: inline-block;
     margin: 75px 0;
+    height: 60%;
 }
 
 .priorityContainer h1 {
     font-size: 6vw;
+}
+
+.priorityLeft {
+    width: 35%;
+    height: 60%;
+}
+
+.priorityRight {
+    width: 35%;
+    height: 60%;
 }
 
 @media screen and (max-width:600px) {
@@ -834,73 +841,89 @@ iframe {
 }
 
 .iq {
-    width: 30%;
-    color: aqua;
+    width: 100%;
     font-weight: bold;
-    height: 40%;
+    height: 25%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 17%;
-    top: 24%;
+    background-color: white;
+    margin-left: 40%;
+    clip-path: polygon(25% 0%, 100% 0%, 72% 100%, 1% 100%);
+    position: relative;
 }
 
 .eq {
-    width: 30%;
-    color: aqua;
+    width: 90%;
     font-weight: bold;
-    height: 40%;
+    height: 50%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 35%;
-    top: 8%;
+    background-color: white;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%, 0 49%);
+    margin: 5px 0;
+    margin-left: 22%;
+    position: relative;
 }
 
 .gt {
-    width: 25%;
-    color: aqua;
+    width: 100%;
     font-weight: bold;
-    height: 40%;
+    height: 25%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 55%;
-    top: 24%;
+    background-color: white;
+    clip-path: polygon(0 0, 72% 0, 100% 100%, 25% 100%);
+    margin-left: 42%;
+    position: relative;
 }
 
 .ct {
-    width: 30%;
-    color: aqua;
+    width: 100%;
     font-weight: bold;
-    height: 40%;
+    height: 25%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 27%;
-    top: 65%;
+    background-color: white;
+    clip-path: polygon(0 0, 75% 0, 98% 100%, 26% 100%);
+    margin-left: -40%;
+    position: relative;
 }
 
 .gm {
-    width: 30%;
-    color: aqua;
+    width: 90%;
     font-weight: bold;
-    height: 40%;
+    height: 50%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 43%;
-    top: 65%;
+    background-color: white;
+    clip-path: polygon(80% 0, 100% 49%, 80% 100%, 0 100%, 0 0);
+    margin: 5px 0;
+    margin-left: -13%;
+    position: relative;
+}
+
+.mgm {
+    width: 100%;
+    font-weight: bold;
+    height: 25%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    clip-path: polygon(27% 0%, 100% 0%, 75% 100%, 0% 100%);
+    margin-left: -42%;
+    position: relative;
 }
 
 .chess h1 {
@@ -929,14 +952,11 @@ iframe {
 }
 
 .priorityCenterImg {
-    position: absolute;
     width: 30%;
-    top: 38%;
-    left: 35%;
 }
 
 .priorityCenterImg img {
-    width: 60%;
+    width: 80%;
 }
 
 
