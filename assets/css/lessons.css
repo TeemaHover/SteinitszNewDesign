@@ -28,7 +28,9 @@
 }
 
 .containerTopText a {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .containerTopText button {
@@ -44,9 +46,7 @@
     text-transform: uppercase;
 }
 
-/* .containerTopText {
-    margin-bottom: 5%;
-} */
+
 
 .line {
     margin: 5%;
