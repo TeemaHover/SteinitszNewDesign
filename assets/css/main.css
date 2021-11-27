@@ -796,6 +796,9 @@ iframe {
     margin: 7% auto;
     z-index: 3;
 }
+.teachersText h1{
+    margin-top: 70%;
+}
 
 @media screen and (max-width:600px) {
     .teachersInfo {
