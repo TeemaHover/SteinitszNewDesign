@@ -8,7 +8,7 @@ function showMenu() {
 $(document).ready(function() {
     $(window).scroll(function() {
         if ($(window).scrollTop() > $(window).height()) {
-            $(".navigation").css({ "background-color": "#131320" });
+            $(".navigation").css({ "background-color": "#131320"});
         } else {
             $(".navigation").css({ "background-color": "transparent" });
         }

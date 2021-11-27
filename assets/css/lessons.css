@@ -15,6 +15,18 @@
     margin: 0 auto;
 }
 
+.personalComment h1 {
+    width: 70%;
+    margin: 1% auto;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.personalComment .line {
+    margin: 2% auto;
+}
+
 .containerTopText a {
     width: 100%;
 }
@@ -87,6 +99,11 @@
     padding: 5px;
     padding-left: 10px;
     width: 100%;
+    font-size: 14px;
+}
+
+.lessonContainerLeft p {
+    margin-bottom: 2%;
 }
 
 .lessonContainerRight {
@@ -122,4 +139,6 @@
 
 .anotherClass .lessonMiddle {
     width: 100%;
+
 }
+

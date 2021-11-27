@@ -54,3 +54,6 @@
     margin-top: -8%;
     z-index: 2;
 }
+.swiperAbout .swiper-button-prev,.swiper-button-next{
+    color: #131320;
+}

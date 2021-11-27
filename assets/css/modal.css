@@ -122,3 +122,7 @@ small {
     border-radius: 500px;
     color: black;
 }
+
+.interior a {
+    font-size: 32px;
+}
