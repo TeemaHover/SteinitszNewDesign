@@ -51,6 +51,7 @@ body {
     -webkit-animation-duration: 0.8s;
     animation-duration: 0.8s;
     /* don't forget to set a duration! */
+    transition: all 0.8s ease
 }
 
 @media screen and (max-width:600px) {
