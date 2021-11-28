@@ -684,7 +684,7 @@ iframe {
     flex-direction: column;
     -ms-flex-line-pack: distribute;
     align-content: space-around;
-    height: 120vh;
+    height: 130vh;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     background-color: #131320;
@@ -890,7 +890,14 @@ iframe {
 .teachers .bottomArrow {
     margin-top: -1%;
 }
-
+.teachersgrayscale{
+    background: linear-gradient(to right,rgb(0, 0, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgb(0, 0, 0));
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    pointer-events: none;
+}
 
 /*priority*/
 
