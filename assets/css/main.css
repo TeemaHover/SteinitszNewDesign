@@ -898,7 +898,9 @@ iframe {
     width: 100%;
     pointer-events: none;
 }
-
+li b{
+    font-weight: bold;
+}
 /*priority*/
 
 .priorityTop {
