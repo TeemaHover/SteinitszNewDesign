@@ -142,3 +142,58 @@
 
 }
 
+.shop{
+    background-color: white;
+    color: black;
+    margin-top: -18%;
+    padding-top: 18%;
+    box-shadow: 0 0 195px -100px black;
+}
+
+.book{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 10%;
+}
+.bookImg{
+    width: 20%;
+    padding: 5%;
+}
+.bookImg img{
+    width: 100%;
+}
+.bookText{
+    width: 60%;
+    padding: 5%;
+}
+.shopAccept{
+    display: flex;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    margin-top: 5%;
+}
+.shopAccept h1{
+    width: 50%;
+    font-size: 35px;
+}
+.shopAccept p{
+    width: 50%;
+    text-align: left;
+}
+.shopAccept span{
+    background-color: #131320;
+    width: 25px;
+    height: 25px;
+    margin: 5%;
+    border-radius: 100px;
+}
+.shopBack{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/shopBack.png');
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+.shopBackText{
+    color: black;
+}
