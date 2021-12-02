@@ -39,12 +39,12 @@ const swiper = new Swiper('.swiper', {
     breakpoints: {
 
         300: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 20
         },
 
         1000: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 40
         },
         1400: {

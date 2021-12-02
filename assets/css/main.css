@@ -777,7 +777,7 @@ iframe {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: end;
-    padding: 20% 0;
+    padding: 15% 0;
 }
 
 .teachersText h1 {
@@ -796,9 +796,10 @@ iframe {
     z-index: 3;
 }
 
-.teachersText h1 {
+
+/* .teachersText h1 {
     margin-top: 90%;
-}
+} */
 
 @media screen and (max-width:600px) {
     .teachersInfo {
