@@ -301,8 +301,8 @@ body {
 
 .monkhtsogt {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mmonhtsogtBack.jpg');
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mmonhtsogtBack.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mmonhtsogtBack.jpg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/monhtsogtBack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/monhtsogtBack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
