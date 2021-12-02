@@ -21,6 +21,10 @@
     transition: all 0.3s;
 }
 
+.video-window video {
+    width: 100%;
+}
+
 .video-window:target {
     visibility: visible;
     opacity: 1;
