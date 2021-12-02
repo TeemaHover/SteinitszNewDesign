@@ -1,45 +1,38 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 #preloader {
-    background: #121111 url('/assets/imgs/button/loader.gif') no-repeat center center;
+    background: #121111 url(/assets/imgs/button/loader.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
     background-size: 30%;
     position: fixed;
-    z-index: 999;
+    z-index: 999
 }
 
 :root {
     --text-color: var(rgb(2, 7, 87));
-    --main-color: var(#131320);
+    --main-color: var(#131320)
 }
 
 @font-face {
     font-family: MogulHo;
-    src: url('/fonts/MogulFuturaEugeniaHo.ttf') format("truetype");
-    font-weight: normal;
+    src: url(/fonts/MogulFuturaEugeniaHo.ttf) format("truetype");
+    font-weight: 400
 }
 
 @font-face {
     font-family: Mogul;
-    src: url('/fonts/MogulFuturaEugenia.ttf') format("truetype");
-    font-weight: normal;
+    src: url(/fonts/MogulFuturaEugenia.ttf) format("truetype");
+    font-weight: 400
 }
 
 @font-face {
     font-family: MogulItalic;
-    src: url('/fonts/MogulFuturaEugeniaItalic.ttf') format("truetype");
-    font-weight: normal;
+    src: url(/fonts/MogulFuturaEugeniaItalic.ttf) format("truetype");
+    font-weight: 400
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    font-family: Montserrat, sans-serif;
+    background-color: #fff
 }
 
 .navigation {
@@ -56,11 +49,9 @@ body {
     z-index: 5;
     -webkit-animation: backInDown;
     animation: backInDown;
-    /* referring directly to the animation's @keyframe declaration */
-    -webkit-animation-duration: 0.8s;
-    animation-duration: 0.8s;
-    /* don't forget to set a duration! */
-    transition: all 0.8s ease
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    transition: all .8s ease
 }
 
 @media screen and (max-width:600px) {
@@ -74,16 +65,16 @@ body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
+        flex-direction: column
     }
 }
 
 .navImg {
-    width: 30%;
+    width: 30%
 }
 
 .navImg img {
-    width: 40%;
+    width: 40%
 }
 
 @media screen and (max-width:600px) {
@@ -96,15 +87,15 @@ body {
         justify-content: center;
         width: 50%;
         position: absolute;
-        left: 0;
+        left: 0
     }
     .navImg img {
-        width: 80%;
+        width: 80%
     }
 }
 
 .navList {
-    width: 70%;
+    width: 70%
 }
 
 .navList ul {
@@ -115,15 +106,15 @@ body {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     z-index: 1;
-    font-size: 0.9vw;
+    font-size: .9vw;
     height: 5vh;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center
 }
 
 .navList ul a {
-    color: white;
+    color: #fff
 }
 
 .navList ul li {
@@ -131,13 +122,13 @@ body {
     transition: -webkit-transform .5s ease;
     -o-transition: transform .5s ease;
     transition: transform .5s ease;
-    transition: transform .5s ease, -webkit-transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease
 }
 
 .navList ul li:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    transform: scale(1.3)
 }
 
 @media screen and (max-width:600px) {
@@ -146,62 +137,62 @@ body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
+        flex-direction: column
     }
 }
 
 .navButton {
     width: 30%;
-    display: none;
+    display: none
 }
 
 .navButton img {
-    width: 100%;
+    width: 100%
 }
 
 .open {
-    display: block;
+    display: block
 }
 
 @media screen and (max-width:600px) {
     .navList {
         width: 100%;
         display: none;
-        background-color: rgba(189, 189, 189, 0.322);
+        background-color: rgba(189, 189, 189, .322);
         text-align: center;
         margin-top: 20%;
         z-index: 1;
-        height: 50vh;
+        height: 50vh
     }
     .navList ul {
         -ms-flex-pack: distribute;
         justify-content: space-around;
         height: 50vh;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 700
     }
     .navButton {
         display: block;
         position: absolute;
         width: 10%;
         right: 5%;
-        margin-top: 5%;
+        margin-top: 5%
     }
     .navButton img {
-        width: 100%;
+        width: 100%
     }
     .open {
-        display: block;
+        display: block
     }
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .onlineShop {
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #000;
     -webkit-clip-path: polygon(5% 0, 100% 0, 100% 66%, 96% 100%, 0 99%, 0 32%);
     clip-path: polygon(5% 0, 100% 0, 100% 66%, 96% 100%, 0 99%, 0 32%);
     height: 4vh;
@@ -210,53 +201,53 @@ a {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center
 }
 
 .onlineShop a {
-    color: black !important;
+    color: #000!important;
     padding: 20px;
-    font-weight: bold;
+    font-weight: 700
 }
 
 iframe {
     position: fixed;
     z-index: 99999;
     width: 80%;
-    height: 70%;
+    height: 70%
 }
 
 .homePage {
     height: 120vh;
     width: 100%;
-    position: relative;
+    position: relative
 }
 
 .slide1 {
-    background-image: url('/assets/imgs/button/Back_1.jpg');
+    background-image: url(/assets/imgs/button/Back_1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%
 }
 
 .slide2 {
-    background-image: url('/assets/imgs/button/Back_2.jpg');
+    background-image: url(/assets/imgs/button/Back_2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-left: -1%;
+    margin-left: -1%
 }
 
 .slide3 {
-    background-image: url('/assets/imgs/button/Page-1_3.jpg');
+    background-image: url(/assets/imgs/button/Page-1_3.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%
 }
 
 @media screen and (max-width:600px) {
     .homePage {
-        background-image: url('/assets/imgs/CompressedImg/home-min.webp');
+        background-image: url(/assets/imgs/CompressedImg/home-min.webp);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center
     }
 }
 
@@ -264,23 +255,20 @@ iframe {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 120vh;
+    height: 120vh
 }
 
 @media screen and (max-width:600px) {
     .homePage {
-        height: 100vh;
+        height: 100vh
     }
     .homePageContainer {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        height: 100%;
+        height: 100%
     }
 }
-
-
-/*Home Page*/
 
 .homePageTextSection {
     font-size: 3.6vw;
@@ -293,41 +281,41 @@ iframe {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    color: white;
+    color: #fff;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    margin-left: 6%;
+    margin-left: 6%
 }
 
 @media screen and (max-width:600px) {
     .homePageTextSection {
         height: 20vh;
-        width: 100%;
+        width: 100%
     }
 }
 
 .homePageTextSectionRight {
-    width: 50%;
+    width: 50%
 }
 
 .homePageTextSectionRight img {
-    width: 100%;
+    width: 100%
 }
 
 .homePageText {
-    position: sticky;
+    position: sticky
 }
 
 .homePageText h1 {
-    font-size: 2.7vw;
+    font-size: 2.7vw
 }
 
 .nonSwiperText {
     position: absolute;
     font-size: 2.7vw;
-    color: white;
+    color: #fff;
     z-index: 4;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -343,51 +331,51 @@ iframe {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    top: 32%;
+    top: 32%
 }
 
 .nonSwiperText h1 {
-    margin-bottom: 10%;
+    margin-bottom: 10%
 }
 
 .homePageText strong {
     font-size: 4.5vw;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 10%;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    margin-left: 10%
 }
 
 @media screen and (max-width:600px) {
     .homePageText {
         position: absolute;
-        top: 76%;
+        top: 76%
     }
     .homePageText h1 {
-        font-size: 8vw;
+        font-size: 8vw
     }
     .homePageText strong {
         font-size: 12.6vw;
-        font-weight: bold;
+        font-weight: 700
     }
 }
 
 .buttonBox {
-    background-image: url('/assets/imgs/button/Bottom.png');
+    background-image: url(/assets/imgs/button/Bottom.png);
     height: 100px;
     width: 100%;
     background-size: 90%;
     background-repeat: no-repeat;
-    margin-top: 5%;
+    margin-top: 5%
 }
 
 .buttonBox:hover {
-    background-image: url('/assets/imgs/button/ButtonShow.png');
-    background-size: 90%;
+    background-image: url(/assets/imgs/button/ButtonShow.png);
+    background-size: 90%
 }
 
 @media screen and (max-width:600px) {
     .srchbar {
-        height: 8.5vw;
+        height: 8.5vw
     }
 }
 
@@ -399,15 +387,12 @@ iframe {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: -6%;
+    margin-top: -6%
 }
 
 .bottomArrow img {
-    width: 2.5%;
+    width: 2.5%
 }
-
-
-/* Partners */
 
 .partners {
     width: 100%;
@@ -416,11 +401,11 @@ iframe {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    background-color: rgb(231, 231, 231);
+    background-color: #e7e7e7;
     padding: 1% 0;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center
 }
 
 .partnersBox {
@@ -430,27 +415,24 @@ iframe {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .partnersBox img {
-    width: 30%;
+    width: 30%
 }
 
 .melearn {
     width: 15%;
-    height: 50%;
+    height: 50%
 }
 
 .melearn img {
-    width: 80%;
+    width: 80%
 }
 
-
-/*Enviroment*/
-
 #enviroment {
-    position: relative;
+    position: relative
 }
 
 .enviroment {
@@ -466,17 +448,17 @@ iframe {
     height: 140vh;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    color: rgb(2, 7, 87);
+    color: #020757;
     position: relative;
     -webkit-clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    background-image: url('/assets/imgs/mainBack.jpeg');
-    background-attachment: fixed;
+    background-image: url(/assets/imgs/mainBack.jpeg);
+    background-attachment: fixed
 }
 
 @media screen and (max-width:600px) {
     .enviroment {
-        height: 80vh;
+        height: 80vh
     }
 }
 
@@ -488,30 +470,30 @@ iframe {
     line-height: 1.2;
     margin-top: -4%;
     position: relative;
-    z-index: 3;
+    z-index: 3
 }
 
 .enviromentTop h1 {
     text-align: center;
     font-size: 3vw;
-    margin-bottom: 2%;
+    margin-bottom: 2%
 }
 
 .enviromentTop strong {
-    font-weight: 900;
+    font-weight: 900
 }
 
 @media screen and (max-width:600px) {
     .enviromentTop {
-        font-size: 2.5vw;
+        font-size: 2.5vw
     }
     .enviromentTop h1 {
         text-align: center;
         font-size: 5vw;
-        margin-bottom: 2%;
+        margin-bottom: 2%
     }
     .enviromentTop strong {
-        font-weight: bold;
+        font-weight: 700
     }
 }
 
@@ -529,25 +511,25 @@ iframe {
     -ms-flex-line-pack: start;
     align-content: flex-start;
     height: 50%;
-    margin-top: -7%;
+    margin-top: -7%
 }
 
 .enviromentMiddle .borderTop {
     width: 75%;
     height: 40%;
-    left: -1.5%;
+    left: -1.5%
 }
 
 .enviromentMiddle .borderBottom {
     width: 75%;
     height: 40%;
-    right: -1.5%;
+    right: -1.5%
 }
 
 @media screen and (max-width:600px) {
     .enviromentMiddle {
         overflow: auto;
-        height: 60%;
+        height: 60%
     }
 }
 
@@ -561,29 +543,29 @@ iframe {
     -ms-flex-direction: column;
     flex-direction: column;
     position: relative;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(rgba(133, 133, 133, 0.075)), to(rgb(0, 7, 53)));
-    background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, 0.075), rgb(0, 7, 53));
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, 0.075), rgb(0, 7, 53));
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.438);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.438);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(rgba(133, 133, 133, .075)), to(#000735));
+    background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, .075), #000735);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, .075), #000735);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .438);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .438);
     -ms-flex-line-pack: center;
     align-content: center;
-    height: 100%;
+    height: 100%
 }
 
 @media screen and (max-width:600px) {
     .enviromentBox {
         width: 100%;
-        height: 150px;
+        height: 150px
     }
 }
 
 .enviromentBox h1 {
     margin-top: -25%;
-    color: rgb(231, 231, 231);
+    color: #e7e7e7;
     font-size: 1.8vw;
     z-index: 1;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .enviromentBox img {
@@ -594,19 +576,19 @@ iframe {
     transition: -webkit-transform .5s ease;
     -o-transition: transform .5s ease;
     transition: transform .5s ease;
-    transition: transform .5s ease, -webkit-transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease
 }
 
 .enviromentBox:hover img {
-    background-image: url('/assets/imgs/orchin2.jpg');
+    background-image: url(/assets/imgs/orchin2.jpg);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    z-index: 2;
+    z-index: 2
 }
 
 .enviroment .bottomArrow {
-    margin-top: -1%;
+    margin-top: -1%
 }
 
 .grayscaleEnvi {
@@ -614,50 +596,50 @@ iframe {
     width: 100%;
     height: 100%;
     background: -webkit-gradient(linear, left bottom, left top, from(#131320b6), color-stop(36%, #13132097), color-stop(51%, #13132000), to(rgba(0, 0, 0, 0)));
-    background: -o-linear-gradient(bottom, #131320b6 0%, #13132097 36%, #13132000 51%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(360deg, #131320b6 0%, #13132097 36%, #13132000 51%, rgba(0, 0, 0, 0) 100%);
-    z-index: 1;
+    background: -o-linear-gradient(bottom, #131320b6 0, #13132097 36%, #13132000 51%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(360deg, #131320b6 0, #13132097 36%, #13132000 51%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1
 }
 
 .grayscaleEnviAll {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, right top, left top, from(black), color-stop(rgba(241, 241, 241, 0.075)), to(rgba(255, 255, 255, 0)));
-    background: -o-linear-gradient(right, black, rgba(241, 241, 241, 0.075), rgba(255, 255, 255, 0));
-    background: linear-gradient(to left, black, rgba(241, 241, 241, 0.075), rgba(255, 255, 255, 0));
+    background: -webkit-gradient(linear, right top, left top, from(black), color-stop(rgba(241, 241, 241, .075)), to(rgba(255, 255, 255, 0)));
+    background: -o-linear-gradient(right, #000, rgba(241, 241, 241, .075), rgba(255, 255, 255, 0));
+    background: linear-gradient(to left, #000, rgba(241, 241, 241, .075), rgba(255, 255, 255, 0));
     z-index: 2;
-    display: none;
+    display: none
 }
 
 @media screen and (max-width:600px) {
     .grayscaleEnviAll {
         display: block;
-        height: 60%;
+        height: 60%
     }
 }
 
 .grayscaleEnviTop {
     width: 0;
     height: 0;
-    border-top: 100px solid #fffafa;
+    border-top: 100px solid snow;
     border-right: 100px solid transparent;
     position: absolute;
     z-index: 2;
     top: -10%;
-    left: -10%;
+    left: -10%
 }
 
 .grayscaleEnviBottom {
     width: 0;
     height: 0;
-    border-bottom: 100px solid #fffafa;
+    border-bottom: 100px solid snow;
     border-left: 100px solid transparent;
     float: right;
     z-index: 1;
     position: absolute;
     bottom: -10%;
-    right: -10%;
+    right: -10%
 }
 
 .enviBack {
@@ -665,7 +647,7 @@ iframe {
     width: 100%;
     height: 140%;
     background-color: #131320;
-    z-index: -2;
+    z-index: -2
 }
 
 .enviBackGrayscale {
@@ -673,13 +655,10 @@ iframe {
     width: 100%;
     height: 100%;
     z-index: -2;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.163)), color-stop(rgba(255, 255, 255, 0.891)), to(rgb(255, 255, 255)));
-    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.163), rgba(255, 255, 255, 0.891), rgb(255, 255, 255));
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.163), rgba(255, 255, 255, 0.891), rgb(255, 255, 255));
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, .163)), color-stop(rgba(255, 255, 255, .891)), to(#fff));
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, .163), rgba(255, 255, 255, .891), #fff);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .163), rgba(255, 255, 255, .891), #fff)
 }
-
-
-/*teacehrs*/
 
 .teachers {
     display: -webkit-box;
@@ -695,18 +674,18 @@ iframe {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     background-color: #131320;
-    color: white;
+    color: #fff;
     -webkit-clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#131320), to(rgba(255, 255, 255, 0))), url('/assets/imgs/mainBack2.png');
-    background-image: -o-linear-gradient(#131320, rgba(255, 255, 255, 0)), url('/assets/imgs/mainBack2.png');
-    background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url('/assets/imgs/mainBack2.png');
-    background-attachment: fixed;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#131320), to(rgba(255, 255, 255, 0))), url(/assets/imgs/mainBack2.png);
+    background-image: -o-linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
+    background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
+    background-attachment: fixed
 }
 
 .teachersTop {
     text-align: center;
-    font-size: 1.1vw;
+    font-size: 1.1vw
 }
 
 .teachersTop h1 {
@@ -714,19 +693,19 @@ iframe {
     font-size: 3vw;
     margin-bottom: 1%;
     font-weight: 400;
-    margin-top: 2%;
+    margin-top: 2%
 }
 
 .teachersTop strong {
-    font-weight: bold;
+    font-weight: 700
 }
 
 @media screen and (max-width:600px) {
     .teachersTop {
-        font-size: 2.5vw;
+        font-size: 2.5vw
     }
     .teachersTop h1 {
-        font-size: 5vw;
+        font-size: 5vw
     }
 }
 
@@ -741,7 +720,7 @@ iframe {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 60%;
-    padding: 0 5%;
+    padding: 0 5%
 }
 
 .teachersBox {
@@ -760,16 +739,16 @@ iframe {
     margin: 15px;
     border: none;
     margin-bottom: 5%;
-    background-color: rgb(110, 110, 110);
+    background-color: #6e6e6e;
     -webkit-clip-path: polygon(26% 0, 100% 0, 100% 77%, 70% 100%, 0 100%, 0 17%);
-    clip-path: polygon(26% 0, 100% 0, 100% 77%, 70% 100%, 0 100%, 0 17%);
+    clip-path: polygon(26% 0, 100% 0, 100% 77%, 70% 100%, 0 100%, 0 17%)
 }
 
 @media screen and (max-width:600px) {
     .teachersBox {
         width: 80%;
         height: 100%;
-        margin: 15px;
+        margin: 15px
     }
 }
 
@@ -786,49 +765,44 @@ iframe {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: end;
-    padding: 15% 0;
+    padding: 15% 0
 }
 
 .teachersText h1 {
     font-family: MogulItalic;
-    z-index: 3;
+    z-index: 3
 }
 
 .teachersText h2 {
-    z-index: 3;
+    z-index: 3
 }
 
 .line {
     border: 1px solid red;
     width: 25%;
     margin: 7% auto;
-    z-index: 3;
+    z-index: 3
 }
-
-
-/* .teachersText h1 {
-    margin-top: 90%;
-} */
 
 @media screen and (max-width:600px) {
     .teachersInfo {
         position: absolute;
         top: 3%;
-        left: 8%;
+        left: 8%
     }
     .teachersInfo button {
-        font-size: 8px;
+        font-size: 8px
     }
 }
 
 .teachersBox h1 {
-    color: white;
-    font-size: 28px;
+    color: #fff;
+    font-size: 28px
 }
 
 .teachersBox h2 {
-    color: white;
-    font-size: 1.1vw;
+    color: #fff;
+    font-size: 1.1vw
 }
 
 .teachersBox img {
@@ -837,18 +811,18 @@ iframe {
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 30px;
-    z-index: 0;
+    z-index: 0
 }
 
 @media screen and (max-width:600px) {
     .teachersBox img {
-        border-radius: 15px;
+        border-radius: 15px
     }
     .teachersBox h1 {
-        font-size: 25px;
+        font-size: 25px
     }
     .teachersBox h2 {
-        font-size: 16px;
+        font-size: 16px
     }
 }
 
@@ -856,97 +830,94 @@ iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.945)), color-stop(36%, rgba(0, 0, 0, 0.639)), color-stop(51%, rgba(0, 0, 0, 0.2806256291579131)), to(rgba(0, 0, 0, 0)));
-    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.945) 0%, rgba(0, 0, 0, 0.639) 36%, rgba(0, 0, 0, 0.2806256291579131) 51%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.945) 0%, rgba(0, 0, 0, 0.639) 36%, rgba(0, 0, 0, 0.2806256291579131) 51%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .945)), color-stop(36%, rgba(0, 0, 0, .639)), color-stop(51%, rgba(0, 0, 0, .2806256291579131)), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, .945) 0, rgba(0, 0, 0, .639) 36%, rgba(0, 0, 0, .2806256291579131) 51%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(360deg, rgba(0, 0, 0, .945) 0, rgba(0, 0, 0, .639) 36%, rgba(0, 0, 0, .2806256291579131) 51%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
-    top: 0;
+    top: 0
 }
 
 .grayscaleTop {
     width: 0;
     height: 0;
-    border-top: 65px solid black;
+    border-top: 65px solid #000;
     border-right: 65px solid transparent;
     position: absolute;
     z-index: 2;
     top: 0;
-    left: 0;
+    left: 0
 }
 
 .grayscaleBottom {
     width: 0;
     height: 0;
-    border-bottom: 65px solid black;
+    border-bottom: 65px solid #000;
     border-left: 65px solid transparent;
     float: right;
     z-index: 2;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 0
 }
 
 .teachersText a {
-    z-index: 3;
+    z-index: 3
 }
 
 @media screen and (max-width:600px) {
     .grayscale {
-        border-radius: 14px;
+        border-radius: 14px
     }
 }
 
 .teachers .bottomArrow {
-    margin-top: -1%;
+    margin-top: -1%
 }
 
 .teachersgrayscale {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    background: linear-gradient(to right, #000, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #000);
     height: 100%;
     position: absolute;
     z-index: 10;
     width: 100%;
-    pointer-events: none;
+    pointer-events: none
 }
 
 li b {
-    font-weight: bold;
+    font-weight: 700
 }
-
-
-/*priority*/
 
 .priorityTop {
     text-align: center;
     font-size: 1.1vw;
-    color: white;
-    margin-top: 1%;
+    color: #fff;
+    margin-top: 1%
 }
 
 .priority h1 {
-    font-size: 3vw;
+    font-size: 3vw
 }
 
 .priority strong {
     font-size: 3vw;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .prioritytTop h1 {
     text-align: center;
     font-size: 3vw;
-    margin-bottom: 2%;
+    margin-bottom: 2%
 }
 
 @media screen and (max-width:600px) {
     .priorityTop {
-        font-size: 3.5vw;
+        font-size: 3.5vw
     }
     .priority h1 {
-        font-size: 6vw;
+        font-size: 6vw
     }
     .priority strong {
-        font-size: 6vw;
+        font-size: 6vw
     }
 }
 
@@ -965,7 +936,7 @@ li b {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     height: 100vh;
-    position: relative;
+    position: relative
 }
 
 .priorityContainer {
@@ -984,21 +955,21 @@ li b {
     border: 5px solid transparent;
     border-radius: 50%;
     margin: 75px 0;
-    height: 60%;
+    height: 60%
 }
 
 .priorityContainer h1 {
-    font-size: 6vw;
+    font-size: 6vw
 }
 
 .priorityLeft {
     width: 35%;
-    height: 60%;
+    height: 60%
 }
 
 .priorityRight {
     width: 35%;
-    height: 60%;
+    height: 60%
 }
 
 @media screen and (max-width:600px) {
@@ -1007,10 +978,10 @@ li b {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: 80vh;
+        height: 80vh
     }
     .priorityContainer h1 {
-        font-size: 80px;
+        font-size: 80px
     }
     .priorityContainer {
         display: -webkit-box;
@@ -1025,13 +996,13 @@ li b {
         align-items: center;
         text-align: center;
         height: 50%;
-        margin-top: -50%;
+        margin-top: -50%
     }
 }
 
 .iq {
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
     height: 25%;
     vertical-align: middle;
     display: -webkit-box;
@@ -1043,16 +1014,16 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #fff;
     margin-left: 40%;
-    -webkit-clip-path: polygon(25% 0%, 100% 0%, 72% 100%, 1% 100%);
-    clip-path: polygon(25% 0%, 100% 0%, 72% 100%, 1% 100%);
-    position: relative;
+    -webkit-clip-path: polygon(25% 0, 100% 0, 72% 100%, 1% 100%);
+    clip-path: polygon(25% 0, 100% 0, 72% 100%, 1% 100%);
+    position: relative
 }
 
 .eq {
     width: 90%;
-    font-weight: bold;
+    font-weight: 700;
     height: 50%;
     vertical-align: middle;
     display: -webkit-box;
@@ -1064,17 +1035,17 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #fff;
     -webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%, 0 49%);
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%, 0 49%);
     margin: 5px 0;
     margin-left: 22%;
-    position: relative;
+    position: relative
 }
 
 .gt {
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
     height: 25%;
     vertical-align: middle;
     display: -webkit-box;
@@ -1086,16 +1057,16 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #fff;
     -webkit-clip-path: polygon(0 0, 72% 0, 100% 100%, 25% 100%);
     clip-path: polygon(0 0, 72% 0, 100% 100%, 25% 100%);
     margin-left: 42%;
-    position: relative;
+    position: relative
 }
 
 .ct {
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
     height: 25%;
     vertical-align: middle;
     display: -webkit-box;
@@ -1107,16 +1078,16 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #fff;
     -webkit-clip-path: polygon(0 0, 75% 0, 98% 100%, 26% 100%);
     clip-path: polygon(0 0, 75% 0, 98% 100%, 26% 100%);
     margin-left: -40%;
-    position: relative;
+    position: relative
 }
 
 .gm {
     width: 90%;
-    font-weight: bold;
+    font-weight: 700;
     height: 50%;
     vertical-align: middle;
     display: -webkit-box;
@@ -1128,17 +1099,17 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #fff;
     -webkit-clip-path: polygon(80% 0, 100% 49%, 80% 100%, 0 100%, 0 0);
     clip-path: polygon(80% 0, 100% 49%, 80% 100%, 0 100%, 0 0);
     margin: 5px 0;
     margin-left: -13%;
-    position: relative;
+    position: relative
 }
 
 .mgm {
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
     height: 25%;
     vertical-align: middle;
     display: -webkit-box;
@@ -1150,48 +1121,45 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: white;
-    -webkit-clip-path: polygon(27% 0%, 100% 0%, 75% 100%, 0% 100%);
-    clip-path: polygon(27% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: #fff;
+    -webkit-clip-path: polygon(27% 0, 100% 0, 75% 100%, 0 100%);
+    clip-path: polygon(27% 0, 100% 0, 75% 100%, 0 100%);
     margin-left: -42%;
-    position: relative;
+    position: relative
 }
 
 .chess h1 {
-    font-size: 40px;
+    font-size: 40px
 }
 
 @media screen and (max-width:600px) {
     .iq {
         width: 80%;
-        margin-bottom: 0%;
-        margin-left: 0%;
-        height: 20%;
+        margin-bottom: 0;
+        margin-left: 0;
+        height: 20%
     }
 }
 
 .priority p {
     width: 100%;
     margin: 20px auto;
-    color: gray;
+    color: gray
 }
 
 @media screen and (max-width:600px) {
     .priority p {
-        width: 80%;
+        width: 80%
     }
 }
 
 .priorityCenterImg {
-    width: 30%;
+    width: 30%
 }
 
 .priorityCenterImg img {
-    width: 80%;
+    width: 80%
 }
-
-
-/*lesson*/
 
 .lesson {
     display: -webkit-box;
@@ -1206,39 +1174,39 @@ li b {
     height: 100vh;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    background: white;
+    background: #fff;
     color: #131320;
-    background-image: url('/assets/imgs/mainBack.jpeg');
-    background-attachment: fixed;
+    background-image: url(/assets/imgs/mainBack.jpeg);
+    background-attachment: fixed
 }
 
 .lessonTop {
     text-align: center;
-    font-size: 1.1vw;
+    font-size: 1.1vw
 }
 
 .lessonTop strong {
-    font-weight: 900;
+    font-weight: 900
 }
 
 .lessonTop h1 {
     text-align: center;
     font-size: 3vw;
-    margin-bottom: 1%;
+    margin-bottom: 1%
 }
 
 @media screen and (max-width:600px) {
     .lessonTop {
         text-align: center;
-        font-size: 3vw;
+        font-size: 3vw
     }
     .lessonTop strong {
-        font-weight: bold;
+        font-weight: 700
     }
     .lessonTop h1 {
         text-align: center;
         font-size: 6vw;
-        margin-bottom: 2%;
+        margin-bottom: 2%
     }
 }
 
@@ -1255,17 +1223,17 @@ li b {
     margin: 5% auto;
     -ms-flex-line-pack: distribute;
     align-content: space-around;
-    height: 60%;
+    height: 60%
 }
 
 .lessonMiddle a {
-    width: 100%;
+    width: 100%
 }
 
 @media screen and (max-width:600px) {
     .lessonMiddle {
         margin-top: -40%;
-        width: 95%;
+        width: 95%
     }
 }
 
@@ -1274,8 +1242,8 @@ li b {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, .35) 0 -50px 36px -28px inset;
+    box-shadow: rgba(0, 0, 0, .35) 0 -50px 36px -28px inset;
     -ms-flex-line-pack: center;
     align-content: center;
     height: 130px;
@@ -1284,75 +1252,75 @@ li b {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: white;
-    background: -webkit-gradient(linear, left top, right top, from(#1E2733), color-stop(26%, #273143), color-stop(72%, #1E2733), to(rgba(70, 70, 103, 1)));
-    background: -o-linear-gradient(left, #1E2733 0%, #273143 26%, #1E2733 72%, rgba(70, 70, 103, 1) 100%);
-    background: linear-gradient(90deg, #1E2733 0%, #273143 26%, #1E2733 72%, rgba(70, 70, 103, 1) 100%);
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#1e2733), color-stop(26%, #273143), color-stop(72%, #1e2733), to(#464667));
+    background: -o-linear-gradient(left, #1e2733 0, #273143 26%, #1e2733 72%, #464667 100%);
+    background: linear-gradient(90deg, #1e2733 0, #273143 26%, #1e2733 72%, #464667 100%);
     -webkit-clip-path: polygon(20% 0, 100% 0, 100% 60%, 80% 100%, 0 100%, 0 40%);
-    clip-path: polygon(20% 0, 100% 0, 100% 60%, 80% 100%, 0 100%, 0 40%);
+    clip-path: polygon(20% 0, 100% 0, 100% 60%, 80% 100%, 0 100%, 0 40%)
 }
 
 @media screen and (max-width:600px) {
     .lesson {
-        height: 100vh;
+        height: 100vh
     }
     .box {
         height: 25%;
-        width: 46%;
+        width: 46%
     }
 }
 
 .lessonBox:hover {
-    -webkit-box-shadow: 0px 0px 50px #3278fc;
-    box-shadow: 0px 0px 50px #3278fc;
+    -webkit-box-shadow: 0 0 50px #3278fc;
+    box-shadow: 0 0 50px #3278fc
 }
 
 .lessonBox2:hover {
-    -webkit-box-shadow: 0px 0px 50px #4b56ff;
-    box-shadow: 0px 0px 50px #4b56ff;
+    -webkit-box-shadow: 0 0 50px #4b56ff;
+    box-shadow: 0 0 50px #4b56ff
 }
 
 .lessonBox3:hover {
-    -webkit-box-shadow: 0px 0px 50px #8a3eff;
-    box-shadow: 0px 0px 50px #8a3eff;
+    -webkit-box-shadow: 0 0 50px #8a3eff;
+    box-shadow: 0 0 50px #8a3eff
 }
 
 .lessonBox4:hover {
-    -webkit-box-shadow: 0px 0px 50px #b62bff;
-    box-shadow: 0px 0px 50px #b62bff;
+    -webkit-box-shadow: 0 0 50px #b62bff;
+    box-shadow: 0 0 50px #b62bff
 }
 
 .lessonBox5:hover {
-    -webkit-box-shadow: 0px 0px 50px #d058fe;
-    box-shadow: 0px 0px 50px #d058fe;
+    -webkit-box-shadow: 0 0 50px #d058fe;
+    box-shadow: 0 0 50px #d058fe
 }
 
 .lessonBox6:hover {
-    -webkit-box-shadow: 0px 0px 50px #7a11f0;
-    box-shadow: 0px 0px 50px #7a11f0;
+    -webkit-box-shadow: 0 0 50px #7a11f0;
+    box-shadow: 0 0 50px #7a11f0
 }
 
 .lessonMiddle h1 {
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     width: 80%;
     float: right;
-    font-size: 20px;
+    font-size: 20px
 }
 
 .lessonMiddle h2 {
-    color: white;
-    font-size: 1.5vw;
+    color: #fff;
+    font-size: 1.5vw
 }
 
 .box img {
-    width: 20%;
+    width: 20%
 }
 
 .lessonMiddle p {
-    font-size: 0.9vw;
-    width: 100%;
+    font-size: .9vw;
+    width: 100%
 }
 
 .lessonMiddle a {
@@ -1360,21 +1328,21 @@ li b {
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
-    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    -webkit-filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, .5));
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, .5))
 }
 
 .lessonMiddle a img {
     width: 15%;
     position: absolute;
     right: 15%;
-    top: 0%;
+    top: 0;
     border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-bottom-right-radius: 100px
 }
 
 .boxText {
-    width: 70%;
+    width: 70%
 }
 
 .lessonMiddleLeft {
@@ -1387,7 +1355,7 @@ li b {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    width: 30%;
+    width: 30%
 }
 
 .lessonMiddleCenter {
@@ -1404,60 +1372,60 @@ li b {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 40%;
+    width: 40%
 }
 
 .lessonMiddleCenter img {
-    width: 60%;
+    width: 60%
 }
 
 .chessBlack {
     -webkit-animation: topbot 1s infinite alternate;
-    animation: topbot 1s infinite alternate;
+    animation: topbot 1s infinite alternate
 }
 
 @-webkit-keyframes topbot {
     0% {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform: translateY(0)
     }
     100% {
         -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        transform: translateY(-20px)
     }
 }
 
 @keyframes topbot {
     0% {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform: translateY(0)
     }
     100% {
         -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        transform: translateY(-20px)
     }
 }
 
 .chessShadow {
     -webkit-animation: shdw 1s infinite alternate;
-    animation: shdw 1s infinite alternate;
+    animation: shdw 1s infinite alternate
 }
 
 @-webkit-keyframes shdw {
     0% {
-        opacity: 1;
+        opacity: 1
     }
     100% {
-        opacity: 0.3;
+        opacity: .3
     }
 }
 
 @keyframes shdw {
     0% {
-        opacity: 1;
+        opacity: 1
     }
     100% {
-        opacity: 0.3;
+        opacity: .3
     }
 }
 
@@ -1471,32 +1439,32 @@ li b {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    width: 30%;
+    width: 30%
 }
 
 .lesson .enviBackGrayscale {
-    z-index: 0;
+    z-index: 0
 }
 
 @media screen and (max-width:600px) {
     .box h1 {
-        font-size: 4vw;
+        font-size: 4vw
     }
     .box h2 {
-        font-size: 3vw;
+        font-size: 3vw
     }
     .box p {
-        font-size: 2vw;
+        font-size: 2vw
     }
     .box img {
-        width: 25%;
+        width: 25%
     }
 }
 
 #contact h1 {
     text-align: center;
     background-color: #11110f;
-    color: white;
+    color: #fff;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 700
 }

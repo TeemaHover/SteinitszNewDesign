@@ -1,62 +1,62 @@
 .containerBottom {
-    width: 80%;
+    width: 80%
 }
 
 .personalComment p {
     text-align: center;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .vipText p {
-    width: 100%;
+    width: 100%
 }
 
 .personalComment h1 {
     width: 70%;
     margin: 1% auto;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     text-align: center;
-    font-size: 28px;
+    font-size: 28px
 }
 
 .personalComment .line {
-    margin: 2% auto;
+    margin: 2% auto
 }
 
 .containerTopText a {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .containerTopText button {
-    background-color: white;
+    background-color: #fff;
     border: none;
     margin-top: 10%;
     -webkit-clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
     clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
     font-size: 32px;
     padding: 5px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 2% 10%;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .line {
-    margin: 5%;
+    margin: 5%
 }
 
 #home {
-    height: 0;
+    height: 0
 }
 
 .lessonBack {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/weBack.jpg');
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/weBack.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/weBack.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url(../imgs/teachers/weBack.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, .258), #13132000, #1313204c, #131320, #131320), url(../imgs/teachers/weBack.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .258), #13132000, #1313204c, #131320, #131320), url(../imgs/teachers/weBack.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 
 .lessonContainer {
@@ -70,127 +70,127 @@
     height: 70vh;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center
 }
 
 .lessonContainerLeft {
-    width: 35%;
+    width: 35%
 }
 
 .lessonContainerLeft h1 {
     background-color: #435475;
     text-align: center;
     font-size: 26px;
-    font-weight: bold;
+    font-weight: 700;
     width: 100%;
     padding: 5px 10px;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .lessonContainerLeft ul li {
     background-color: #1c2329;
-    border-bottom: 1px solid white;
-    color: rgb(214, 214, 214);
+    border-bottom: 1px solid #fff;
+    color: #d6d6d6;
     padding: 5px;
     padding-left: 10px;
     width: 100%;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .lessonContainerLeft p {
-    margin-bottom: 2%;
+    margin-bottom: 2%
 }
 
 .lessonContainerRight {
-    width: 55%;
+    width: 55%
 }
 
 .lessonContainerRight video {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%
 }
 
 .lessonMiddle a {
-    width: 30%;
+    width: 30%
 }
 
 .classTitle {
     text-transform: uppercase;
     text-align: center;
     font-size: 32px;
-    font-weight: bold;
-    color: white;
+    font-weight: 700;
+    color: #fff
 }
 
 .classTitle .boxText h1 {
-    font-size: 16px;
+    font-size: 16px
 }
 
 .anotherClass {
     width: 80%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 10%
 }
 
 .anotherClass .lessonMiddle {
-    width: 100%;
+    width: 100%
 }
 
 .vipSec {
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .vipSec video {
-    width: 103%;
+    width: 103%
 }
 
 .shop {
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #000;
     margin-top: -18%;
     padding-top: 18%;
-    box-shadow: 0 0 195px -100px black;
+    box-shadow: 0 0 195px -100px #000
 }
 
 .book {
     display: flex;
     width: 80%;
     justify-content: center;
-    border: 1px solid black;
-    margin: 0 10%;
+    border: 1px solid #000;
+    margin: 0 10%
 }
 
 .bookImg {
     width: 20%;
-    padding: 5%;
+    padding: 5%
 }
 
 .bookImg img {
-    width: 100%;
+    width: 100%
 }
 
 .bookText {
     width: 60%;
-    padding: 5%;
+    padding: 5%
 }
 
 .shopAccept {
     display: flex;
     text-align: center;
-    background-color: rgb(238, 238, 238);
+    background-color: #eee;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 5%
 }
 
 .shopAccept h1 {
     width: 50%;
-    font-size: 35px;
+    font-size: 35px
 }
 
 .shopAccept p {
     width: 50%;
-    text-align: left;
+    text-align: left
 }
 
 .shopAccept span {
@@ -198,14 +198,14 @@
     width: 25px;
     height: 25px;
     margin: 5%;
-    border-radius: 100px;
+    border-radius: 100px
 }
 
 .shopBack {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/shopBack.png');
-    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #fff, #fff), url(../imgs/shopBack.png);
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, .5))
 }
 
 .shopBackText {
-    color: black;
+    color: #000
 }
