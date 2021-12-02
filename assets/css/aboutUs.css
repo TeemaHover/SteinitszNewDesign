@@ -126,9 +126,7 @@
 }
 
 .Aleft img {
-    max-width: 100%;
     margin-left: 46%;
-    max-height: 110%;
 }
 
 .Bleft {
@@ -139,9 +137,7 @@
 }
 
 .Bleft img {
-    max-width: 100%;
     margin-left: 20%;
-    max-height: 110%;
     padding-right: 20%;
 }
 
