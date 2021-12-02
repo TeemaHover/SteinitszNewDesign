@@ -5,6 +5,15 @@
 * Browsers: last 4 version
 */
 
+#preloader {
+    background: #121111 url('/assets/imgs/button/loader.gif') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: 30%;
+    position: fixed;
+    z-index: 999;
+}
+
 :root {
     --text-color: var(rgb(2, 7, 87));
     --main-color: var(#131320);

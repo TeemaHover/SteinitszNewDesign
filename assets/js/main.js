@@ -8,7 +8,7 @@ function showMenu() {
 $(document).ready(function() {
     $(window).scroll(function() {
         if ($(window).scrollTop() > $(window).height()) {
-            $(".navigation").css({ "background-color": "#131320"});
+            $(".navigation").css({ "background-color": "#131320" });
         } else {
             $(".navigation").css({ "background-color": "transparent" });
         }
@@ -37,3 +37,9 @@ $(function() {
     });
 
 });
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function() {
+    loader.style.display = "none";
+})
