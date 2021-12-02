@@ -15,6 +15,10 @@
     margin: 0 auto;
 }
 
+.vipText p {
+    width: 100%;
+}
+
 .personalComment h1 {
     width: 70%;
     margin: 1% auto;
@@ -45,8 +49,6 @@
     padding: 2% 10%;
     text-transform: uppercase;
 }
-
-
 
 .line {
     margin: 5%;
@@ -139,10 +141,18 @@
 
 .anotherClass .lessonMiddle {
     width: 100%;
-
 }
 
-.shop{
+.vipSec {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.vipSec video {
+    width: 103%;
+}
+
+.shop {
     background-color: white;
     color: black;
     margin-top: -18%;
@@ -150,50 +160,59 @@
     box-shadow: 0 0 195px -100px black;
 }
 
-.book{
+.book {
     display: flex;
     width: 80%;
     justify-content: center;
     border: 1px solid black;
     margin: 0 10%;
 }
-.bookImg{
+
+.bookImg {
     width: 20%;
     padding: 5%;
 }
-.bookImg img{
+
+.bookImg img {
     width: 100%;
 }
-.bookText{
+
+.bookText {
     width: 60%;
     padding: 5%;
 }
-.shopAccept{
+
+.shopAccept {
     display: flex;
     text-align: center;
     background-color: rgb(238, 238, 238);
     align-items: center;
     margin-top: 5%;
 }
-.shopAccept h1{
+
+.shopAccept h1 {
     width: 50%;
     font-size: 35px;
 }
-.shopAccept p{
+
+.shopAccept p {
     width: 50%;
     text-align: left;
 }
-.shopAccept span{
+
+.shopAccept span {
     background-color: #131320;
     width: 25px;
     height: 25px;
     margin: 5%;
     border-radius: 100px;
 }
-.shopBack{
+
+.shopBack {
     background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/shopBack.png');
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
-.shopBackText{
+
+.shopBackText {
     color: black;
 }
