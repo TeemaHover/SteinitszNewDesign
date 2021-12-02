@@ -53,7 +53,7 @@ const swiper = new Swiper('.swiper', {
         },
     },
     autoplay: {
-        delay: 0,
+        delay: 1,
         disableOnInteraction: false,
     },
     speed: 4000,
