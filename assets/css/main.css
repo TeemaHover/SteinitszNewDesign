@@ -578,8 +578,6 @@ iframe {
 }
 
 .enviromentBox img {
-    width: 100%;
-    height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     z-index: 0;
@@ -797,7 +795,8 @@ iframe {
     margin: 7% auto;
     z-index: 3;
 }
-.teachersText h1{
+
+.teachersText h1 {
     margin-top: 90%;
 }
 
@@ -890,17 +889,21 @@ iframe {
 .teachers .bottomArrow {
     margin-top: -1%;
 }
-.teachersgrayscale{
-    background: linear-gradient(to right,rgb(0, 0, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgb(0, 0, 0));
+
+.teachersgrayscale {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
     height: 100%;
     position: absolute;
     z-index: 10;
     width: 100%;
     pointer-events: none;
 }
-li b{
+
+li b {
     font-weight: bold;
 }
+
+
 /*priority*/
 
 .priorityTop {
@@ -1487,4 +1490,3 @@ li b{
     font-size: 28px;
     font-weight: bold;
 }
-
