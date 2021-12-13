@@ -39,7 +39,7 @@ const swiper = new Swiper('.swiper', {
     breakpoints: {
 
         300: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20
         },
 
@@ -52,10 +52,7 @@ const swiper = new Swiper('.swiper', {
             spaceBetween: 40
         },
     },
-    autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-    },
+
     speed: 4000,
     grabCursor: true,
 

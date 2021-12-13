@@ -311,6 +311,7 @@ body {
     .containerTop {
         -o-object-fit: cover;
         object-fit: cover;
+        justify-content: center;
     }
 }
 
@@ -335,6 +336,12 @@ body {
     margin-top: 100%;
     margin-bottom: 10%;
     height: 20vh;
+}
+
+@media screen and (max-width:600px) {
+    .containerTopText {
+        margin-top: -50%;
+    }
 }
 
 .containerTopText h1 {

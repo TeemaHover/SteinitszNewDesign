@@ -82,7 +82,10 @@
     }
     .contactContainer {
         text-align: center;
+        margin: 0 auto;
         margin-top: 5%;
+        width: 75%;
+        padding: 0%;
     }
     .contactContainer h1 {
         font-size: 18px;
@@ -107,6 +110,7 @@
         flex-direction: column;
         width: 100%;
         margin-top: 10%;
+        justify-content: center;
     }
 }
 
@@ -159,21 +163,26 @@
     width: 50%;
 }
 
-@media screen and (max-width:600px) {
-    .contactImg {
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        padding-left: 0%;
-    }
-}
-
 .contactImgContainer {
     width: 50%;
 }
 
 .contactImg img {
     width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .contactImg {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .contactImgContainer {
+        width: 80%;
+        margin-left: -5%;
+    }
 }
 
 .contactLogo {

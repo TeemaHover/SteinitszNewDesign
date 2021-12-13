@@ -32,7 +32,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .navigation {
@@ -65,7 +65,8 @@ body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column
+        flex-direction: column;
+        padding: 0% 10%;
     }
 }
 
@@ -162,7 +163,8 @@ body {
         text-align: center;
         margin-top: 20%;
         z-index: 1;
-        height: 50vh
+        height: 50vh;
+        position: absolute;
     }
     .navList ul {
         -ms-flex-pack: distribute;
@@ -243,11 +245,21 @@ iframe {
 }
 
 @media screen and (max-width:600px) {
-    .homePage {
-        background-image: url(/assets/imgs/CompressedImg/home-min.webp);
+    .slide1 {
+        background-image: url(/assets/imgs/button/Back_1m.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center
+        background-size: 100% 70%
+    }
+    .slide2 {
+        background-image: url(/assets/imgs/button/Back_2m.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        margin-left: -1%
+    }
+    .slide3 {
+        background-image: url(/assets/imgs/button/Page-1_3m.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 70%
     }
 }
 
@@ -346,6 +358,18 @@ iframe {
 }
 
 @media screen and (max-width:600px) {
+    .nonSwiperText {
+        font-size: 2.7vw;
+        justify-content: center;
+        width: 100%;
+        top: 70%;
+        background-color: rgba(255, 255, 255, 0.299);
+        backdrop-filter: blur(10px);
+    }
+    .nonSwiperText h1 {
+        margin-bottom: 10%;
+        font-size: 28px;
+    }
     .homePageText {
         position: absolute;
         top: 76%
@@ -432,7 +456,7 @@ iframe {
 }
 
 #enviroment {
-    position: relative
+    position: relative;
 }
 
 .enviroment {
@@ -452,13 +476,14 @@ iframe {
     position: relative;
     -webkit-clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    background-image: url(/assets/imgs/mainBack.jpeg);
+    background-image: linear-gradient(#ffffff, #00000000), url(/assets/imgs/mainBack.jpeg);
     background-attachment: fixed
 }
 
 @media screen and (max-width:600px) {
     .enviroment {
-        height: 80vh
+        height: 80vh;
+        clip-path: polygon(100% 0, 180% 74%, 50% 100%, 0 90%, 0 0);
     }
 }
 
@@ -681,6 +706,15 @@ iframe {
     background-image: -o-linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
     background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
     background-attachment: fixed
+}
+
+@media screen and (max-width:600px) {
+    .teachers {
+        clip-path: polygon(100% 0, 180% 74%, 50% 100%, 0 90%, 0 0);
+    }
+    .enviBackGrayscale {
+        display: none;
+    }
 }
 
 .teachersTop {
@@ -1233,7 +1267,10 @@ li b {
 @media screen and (max-width:600px) {
     .lessonMiddle {
         margin-top: -40%;
-        width: 95%
+        width: 95%;
+        flex-direction: column;
+        height: 75%;
+        overflow-x: hidden;
     }
 }
 
@@ -1262,11 +1299,8 @@ li b {
 
 @media screen and (max-width:600px) {
     .lesson {
-        height: 100vh
-    }
-    .box {
-        height: 25%;
-        width: 46%
+        height: 100vh;
+        background: white;
     }
 }
 
@@ -1341,6 +1375,12 @@ li b {
     border-bottom-right-radius: 100px
 }
 
+@media screen and (max-width:600px) {
+    .lessonMiddle a img {
+        top: -15%;
+    }
+}
+
 .boxText {
     width: 70%
 }
@@ -1373,6 +1413,12 @@ li b {
     -ms-flex-pack: center;
     justify-content: center;
     width: 40%
+}
+
+@media screen and (max-width:600px) {
+    .lessonMiddleCenter {
+        display: none;
+    }
 }
 
 .lessonMiddleCenter img {
@@ -1448,7 +1494,7 @@ li b {
 
 @media screen and (max-width:600px) {
     .box h1 {
-        font-size: 4vw
+        font-size: 3.5vw
     }
     .box h2 {
         font-size: 3vw
@@ -1458,6 +1504,28 @@ li b {
     }
     .box img {
         width: 25%
+    }
+    .lessonMiddleLeft {
+        width: 60%;
+        height: 30vh;
+    }
+    .lessonMiddleRight {
+        width: 60%;
+        height: 30vh;
+    }
+    .box {
+        height: 10vh;
+        width: 100%;
+        margin: 2% 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .mobilePos1 {
+        margin-left: -30%;
+    }
+    .mobilePos3 {
+        margin-left: 30%;
     }
 }
 

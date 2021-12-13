@@ -31,7 +31,7 @@
 
 @media screen and (max-width:600px) {
     .aboutUs {
-        height: 130vh;
+        height: 100vh;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
@@ -52,7 +52,7 @@
 
 @media screen and (max-width:600px) {
     .aboutUsContainer {
-        height: 120vh;
+        height: 70vh;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -60,6 +60,9 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        display: flex;
+        margin-top: 40%;
+        box-shadow: 0 0 10px;
     }
 }
 
@@ -81,7 +84,7 @@
         font-size: 5vw;
     }
     .aboutUs p {
-        font-size: 4vw;
+        font-size: 2vw;
         width: 80%;
     }
 }
@@ -166,6 +169,19 @@
     padding-left: 5%;
 }
 
+@media screen and (max-width:600px) {
+    .whiteBack {
+        clip-path: none;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .whiteBackB {
+        clip-path: none;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+}
+
 .aboutUs b {
     font-weight: bold;
 }
@@ -183,18 +199,17 @@
 }
 
 @media screen and (max-width:600px) {
-    .aboutUs .bottomArrow img {
-        width: 5%;
-    }
     .aboutUsSide {
-        width: 100%;
+        width: 80%;
         text-align: justify;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
     }
     .aboutUsMiddle {
-        width: 100%;
+        width: 40%;
+        left: 30%;
+        top: 44%;
     }
 }
 
@@ -218,4 +233,37 @@
     z-index: -1;
     bottom: -0.9%;
     right: 9.7%;
+}
+
+@media screen and (max-width:600px) {
+    .borderTop {
+        display: none;
+    }
+    .borderBottom {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Aleft {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .Bleft {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        height: 100%;
+    }
+    .Aleft img {
+        width: 150%;
+        margin-left: -50%;
+    }
+    .Bleft img {
+        width: 160%;
+        margin-left: 20%;
+        padding-right: 20%;
+    }
 }

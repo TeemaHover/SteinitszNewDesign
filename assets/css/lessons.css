@@ -114,6 +114,22 @@
     width: 30%;
 }
 
+@media screen and (max-width:600px) {
+    .lessonContainer {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    .lessonContainerLeft {
+        width: 100%;
+    }
+    .lessonContainerRight {
+        width: 100%;
+    }
+    .lessonMiddle a {
+        width: 70%;
+    }
+}
+
 .classTitle {
     text-transform: uppercase;
     text-align: center;
@@ -130,6 +146,15 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 10%;
+}
+
+@media screen and (max-width:600px) {
+    .anotherClass {
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 .anotherClass .lessonMiddle {
