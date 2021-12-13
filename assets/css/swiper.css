@@ -66,5 +66,13 @@
 .swiperAbout .swiper-button-prev,
 .swiper-button-next {
     color: #131320;
-    color: #131320;
+}
+
+@media screen and (max-width:600px) {
+    .swiperAbout .swiper-button-prev {
+        margin-left: -3%;
+    }
+    .swiperAbout .swiper-button-next {
+        margin-right: -3%;
+    }
 }

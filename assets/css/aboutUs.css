@@ -210,6 +210,7 @@
         width: 40%;
         left: 30%;
         top: 44%;
+        display: none;
     }
 }
 
@@ -260,10 +261,12 @@
     .Aleft img {
         width: 150%;
         margin-left: -50%;
+        margin-top: -10%;
     }
     .Bleft img {
         width: 160%;
         margin-left: 20%;
         padding-right: 20%;
+        margin-bottom: -10%;
     }
 }
