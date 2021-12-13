@@ -27,12 +27,8 @@
 
 /* The typewriter cursor effect */
 
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: orange;
+@media screen and (max-width:600px) {
+    .navList {
+        margin-left: 10%;
     }
 }

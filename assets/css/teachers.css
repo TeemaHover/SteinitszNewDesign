@@ -49,7 +49,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 20px;
     width: 80%;
     padding: 0% 5%;
     z-index: 2;
@@ -153,7 +153,6 @@ body {
         z-index: 1;
         height: 50vh;
         position: absolute;
-        margin-left: 10%;
     }
     .navList ul {
         -ms-flex-pack: distribute;
@@ -251,6 +250,12 @@ body {
     clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
 }
 
+@media screen and (max-width:600px) {
+    .containerTop {
+        height: 80vh;
+    }
+}
+
 .muba {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mubaWithBack1.jpeg');
@@ -313,6 +318,38 @@ body {
         object-fit: cover;
         justify-content: center;
     }
+    .muba {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .anu {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70%;
+    }
+    .batnym {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10%;
+    }
+    .boldbaatar {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45%;
+    }
+    .enkhbayar {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45%;
+    }
+    .bazarwaani {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .monkhtsogt {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 .containerTopText {
@@ -340,7 +377,7 @@ body {
 
 @media screen and (max-width:600px) {
     .containerTopText {
-        margin-top: -50%;
+        margin-top: 50%;
     }
 }
 
@@ -414,6 +451,12 @@ body {
     font-size: 32px;
 }
 
+@media screen and (max-width:600px) {
+    .yearLine h1 {
+        font-size: 20px;
+    }
+}
+
 .yearLineMiddle {
     width: 10%;
     position: relative;
@@ -463,4 +506,5 @@ body {
 
 .personalComment p {
     font-size: 14px;
+    text-align: justify;
 }

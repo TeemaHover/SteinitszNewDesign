@@ -88,7 +88,8 @@ body {
         justify-content: center;
         width: 50%;
         position: absolute;
-        left: 0
+        left: 0;
+        top: 15px;
     }
     .navImg img {
         width: 80%
@@ -159,7 +160,7 @@ body {
     .navList {
         width: 100%;
         display: none;
-        background-color: rgba(189, 189, 189, .322);
+        background-color: rgba(108, 107, 107, 0.802);
         text-align: center;
         margin-top: 20%;
         z-index: 1;
