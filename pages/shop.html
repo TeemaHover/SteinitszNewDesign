@@ -25,6 +25,28 @@
 
 
     <title>Steinitz</title>
+
+    <style>
+        .navigation {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            position: fixed;
+            width: 80%;
+            padding: 1% 10%;
+            background-color: #131320d4;
+            z-index: 5;
+            -webkit-animation: backInDown;
+            animation: backInDown;
+            -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+            transition: all .8s ease;
+            margin-top: -1.5%;
+        }
+    </style>
 </head>
 
 
@@ -124,28 +146,28 @@
 
                 <div class="contactImg ">
                     <div class="contactImgContainer">
-                        <img src="./assets/imgs/LogoChessCut.png " style="margin-left: 20%;" alt=" ">
+                        <img src="../assets/imgs/LogoChessCut.png " style="margin-left: 20%;" alt=" ">
                     </div>
                     <div class="contactLogo ">
                         <ul>
                             <li>
-                                <img src="./assets/imgs/icon/mail.png" alt="">
+                                <img src="../assets/imgs/icon/mail.png" alt="">
                                 <a href="">info@Steinitzmca.mn</a>
                             </li>
                             <li>
-                                <img src="./assets/imgs/icon/phone.png" alt="">
+                                <img src="../assets/imgs/icon/phone.png" alt="">
                                 <a href="">+976 8600-3553</a>
                             </li>
                             <li>
-                                <img src="./assets/imgs/icon/facebook.png" alt="">
+                                <img src="../assets/imgs/icon/facebook.png" alt="">
                                 <a href="https://www.facebook.com/Steinitz.Mongolian.Chess.Academy">Стейнитц Монголын Шатрын Академи</a>
                             </li>
                             <li>
-                                <img src="./assets/imgs/icon/instagram.png" alt="">
+                                <img src="../assets/imgs/icon/instagram.png" alt="">
                                 <a href="https://www.instagram.com/steinitzchessacademy/">Steinitz MCA</a>
                             </li>
                             <li>
-                                <img src="./assets/imgs/icon/youtube.png" alt="">
+                                <img src="../assets/imgs/icon/youtube.png" alt="">
                                 <a href="https://www.youtube.com/channel/UCBCjlLbsnDWlQR3Pbk_Qz5A">Munkhbayar's Chess</a>
                             </li>
                         </ul>
@@ -155,7 +177,7 @@
                 <div class="contactText ">
                     <div class="contactContainer ">
 
-                        <img src="./assets/imgs/maps.jpg" alt="" data-aos="fade-left" data-aos-delay="0">
+                        <img src="../assets/imgs/maps.jpg" alt="" data-aos="fade-left" data-aos-delay="0">
                         <h1>Манай хаяг:</h1>
                         <p>Хан Уул дүүрэг, Таван богд группын замын урд TV5 телевизийн 8 давхарт</p>
                     </div>
@@ -172,6 +194,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js "></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../../assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > $(window).height()) {
+                    $(".navigation").css({
+                        "background-color": "#131320"
+                    });
+                } else {
+                    $(".navigation").css({
+                        "background-color": "#131320d4"
+                    });
+                }
+
+            })
+        })
+    </script>
 
 
 </body>
