@@ -1020,7 +1020,8 @@ li b {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: 80vh
+        height: 80vh;
+        clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     .priorityContainer h1 {
         font-size: 80px
