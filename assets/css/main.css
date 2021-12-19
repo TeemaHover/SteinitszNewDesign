@@ -724,6 +724,11 @@ iframe {
     }
 }
 
+.teachers a {
+    width: 90%;
+    height: 90%;
+}
+
 .teachersTop {
     text-align: center;
     font-size: 1.1vw

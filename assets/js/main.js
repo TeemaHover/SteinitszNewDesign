@@ -1,4 +1,8 @@
 AOS.init();
+var lazyLoadInstance = new LazyLoad({
+    // Your custom settings go here
+});
+lazyLoadInstance.update();
 
 function showMenu() {
     var element = document.getElementById("navList");

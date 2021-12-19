@@ -6,49 +6,49 @@
 */
 
 .muba {
-    background-image: url('/assets/imgs/teachers/compressed/muba.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/muba.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
 }
 
 .boldbaatar {
-    background-image: url('/assets/imgs/teachers/compressed/boldbaatar.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/boldbaatar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
 }
 
 .anu {
-    background-image: url('/assets/imgs/teachers/compressed/anu.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/anu.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
 }
 
 .enkhbayr {
-    background-image: url('/assets/imgs/teachers/compressed/enkhbayar.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/enkhbayar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
 }
 
 .batnym {
-    background-image: url('/assets/imgs/teachers/compressed/batnym.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/batnym.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
 }
 
 .bazarwaani {
-    background-image: url('/assets/imgs/teachers/compressed/monhtsogt.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/monhtsogt.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
 }
 
 .monkhtsogt {
-    background-image: url('/assets/imgs/teachers/compressed/bazarwaani.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/bazarwaani.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
