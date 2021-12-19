@@ -32,6 +32,11 @@
     height: 120vh;
 }
 
+.Homeswiper .swiper-wrapper {
+    pointer-events: none;
+    z-index: -1;
+}
+
 .Homeswiper .swiper-pagination {
     left: 7%;
     width: 10%;
@@ -44,6 +49,7 @@
     }
     .Homeswiper .swiper-slide {
         height: 100vh;
+        pointer-events: none;
     }
 }
 

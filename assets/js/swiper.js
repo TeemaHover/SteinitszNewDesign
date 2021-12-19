@@ -20,7 +20,7 @@ const Homeswiper = new Swiper('.Homeswiper', {
 })
 
 
-const aboutsiper = new Swiper('.swiperAbout', {
+const aboutswiper = new Swiper('.swiperAbout', {
     direction: 'horizontal',
     slidesPerView: 1,
 
