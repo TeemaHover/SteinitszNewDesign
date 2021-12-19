@@ -1,8 +1,6 @@
 AOS.init();
-var lazyLoadInstance = new LazyLoad({
-    // Your custom settings go here
-});
-lazyLoadInstance.update();
+
+
 
 function showMenu() {
     var element = document.getElementById("navList");
@@ -42,11 +40,11 @@ $(function() {
 
 });
 
-var loader = document.getElementById("preloader");
+// var loader = document.getElementById("preloader");
 
-window.addEventListener("load", function() {
-    loader.style.display = "none";
-})
+// window.addEventListener("load", function() {
+//     loader.style.display = "none";
+// })
 
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;
