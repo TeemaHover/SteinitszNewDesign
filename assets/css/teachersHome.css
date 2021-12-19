@@ -6,31 +6,75 @@
 */
 
 .muba {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/muba.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.muba::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .boldbaatar {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/boldbaatar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.boldbaatar::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .anu {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/anu.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.anu::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .enkhbayr {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/enkhbayar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.enkhbayr::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .batnym {
@@ -38,18 +82,52 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.batnym::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .bazarwaani {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/monhtsogt.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.bazarwaani::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .monkhtsogt {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/bazarwaani.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
+}
+
+.monkhtsogt::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524));
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
