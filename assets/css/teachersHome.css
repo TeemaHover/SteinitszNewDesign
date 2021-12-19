@@ -78,7 +78,6 @@
 }
 
 .batnym {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.524)), url('/assets/imgs/teachers/compressed/batnym.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
