@@ -720,9 +720,8 @@ iframe {
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     background-image: -o-linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#131320), to(rgba(255, 255, 255, 0))), url(/assets/imgs/mainBack2.png);
-    background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/patBack.jpg);
+    background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.jpg);
     background-attachment: fixed;
-    background-size: 50px;
 }
 
 @media screen and (max-width:600px) {
