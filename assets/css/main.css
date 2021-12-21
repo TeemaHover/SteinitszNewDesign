@@ -492,7 +492,8 @@ iframe {
     background-image: -o-linear-gradient(#ffffff, #00000000), url(/assets/imgs/mainBack.jpeg);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#00000000)), url(/assets/imgs/mainBack.jpeg);
     background-image: linear-gradient(#ffffff, #00000000), url(/assets/imgs/mainBack.jpeg);
-    background-attachment: fixed
+    background-attachment: fixed;
+    position: relative;
 }
 
 @media screen and (max-width:600px) {
@@ -1248,6 +1249,17 @@ li b {
     background-image: url(/assets/imgs/mainBack.jpeg);
     background-attachment: fixed;
     padding-bottom: 5%;
+    position: relative;
+}
+
+.lessonBackGrayscale {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, .163), rgba(255, 255, 255, .891), #fff);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, .163)), color-stop(rgba(255, 255, 255, .891)), to(#fff));
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .163), rgba(255, 255, 255, .891), #fff)
 }
 
 .lessonTop {
