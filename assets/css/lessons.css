@@ -229,7 +229,7 @@
 }
 
 .shopBack {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/BookAssets/130-min.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/shopBack.jpg');
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
