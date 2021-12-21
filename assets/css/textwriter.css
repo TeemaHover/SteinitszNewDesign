@@ -9,11 +9,21 @@
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
     /* Adjust as needed */
+    -webkit-animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 
 /* The typing effect */
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
 
 @keyframes typing {
     from {

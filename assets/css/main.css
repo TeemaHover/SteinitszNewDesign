@@ -51,6 +51,8 @@ body {
     animation: backInDown;
     -webkit-animation-duration: .8s;
     animation-duration: .8s;
+    -webkit-transition: all .8s ease;
+    -o-transition: all .8s ease;
     transition: all .8s ease
 }
 
@@ -319,6 +321,7 @@ iframe {
 }
 
 .homePageText {
+    position: -webkit-sticky;
     position: sticky
 }
 
@@ -362,9 +365,12 @@ iframe {
 @media screen and (max-width:600px) {
     .nonSwiperText {
         font-size: 2.7vw;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         width: 100%;
         top: 50%;
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         position: absolute;
         z-index: 0;
@@ -483,6 +489,8 @@ iframe {
     position: relative;
     -webkit-clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
+    background-image: -o-linear-gradient(#ffffff, #00000000), url(/assets/imgs/mainBack.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#00000000)), url(/assets/imgs/mainBack.jpeg);
     background-image: linear-gradient(#ffffff, #00000000), url(/assets/imgs/mainBack.jpeg);
     background-attachment: fixed
 }
@@ -490,6 +498,7 @@ iframe {
 @media screen and (max-width:600px) {
     .enviroment {
         height: 80vh;
+        -webkit-clip-path: polygon(100% 0, 180% 74%, 50% 100%, 0 90%, 0 0);
         clip-path: polygon(100% 0, 180% 74%, 50% 100%, 0 90%, 0 0);
     }
 }
@@ -575,8 +584,8 @@ iframe {
     -ms-flex-direction: column;
     flex-direction: column;
     position: relative;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(rgba(133, 133, 133, .075)), to(#000735));
     background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, .075), #000735);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(rgba(133, 133, 133, .075)), to(#000735));
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(133, 133, 133, .075), #000735);
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .438);
     box-shadow: 0 0 20px rgba(0, 0, 0, .438);
@@ -627,8 +636,8 @@ iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left bottom, left top, from(#131320b6), color-stop(36%, #13132097), color-stop(51%, #13132000), to(rgba(0, 0, 0, 0)));
     background: -o-linear-gradient(bottom, #131320b6 0, #13132097 36%, #13132000 51%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #131320b6), color-stop(36%, #13132097), color-stop(51%, #13132000), to(rgba(0, 0, 0, 0)));
     background: linear-gradient(360deg, #131320b6 0, #13132097 36%, #13132000 51%, rgba(0, 0, 0, 0) 100%);
     z-index: 1
 }
@@ -637,8 +646,8 @@ iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, right top, left top, from(black), color-stop(rgba(241, 241, 241, .075)), to(rgba(255, 255, 255, 0)));
     background: -o-linear-gradient(right, #000, rgba(241, 241, 241, .075), rgba(255, 255, 255, 0));
+    background: -webkit-gradient(linear, right top, left top, from(#000), color-stop(rgba(241, 241, 241, .075)), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to left, #000, rgba(241, 241, 241, .075), rgba(255, 255, 255, 0));
     z-index: 2;
     display: none
@@ -687,8 +696,8 @@ iframe {
     width: 100%;
     height: 100%;
     z-index: -2;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, .163)), color-stop(rgba(255, 255, 255, .891)), to(#fff));
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, .163), rgba(255, 255, 255, .891), #fff);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, .163)), color-stop(rgba(255, 255, 255, .891)), to(#fff));
     background-image: linear-gradient(to top, rgba(255, 255, 255, .163), rgba(255, 255, 255, .891), #fff)
 }
 
@@ -709,14 +718,15 @@ iframe {
     color: #fff;
     -webkit-clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     clip-path: polygon(100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#131320), to(rgba(255, 255, 255, 0))), url(/assets/imgs/mainBack2.png);
     background-image: -o-linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#131320), to(rgba(255, 255, 255, 0))), url(/assets/imgs/mainBack2.png);
     background-image: linear-gradient(#131320, rgba(255, 255, 255, 0)), url(/assets/imgs/mainBack2.png);
     background-attachment: fixed
 }
 
 @media screen and (max-width:600px) {
     .teachers {
+        -webkit-clip-path: polygon(100% 0, 180% 74%, 50% 100%, 0 90%, 0 0);
         clip-path: polygon(100% 0, 180% 74%, 50% 100%, 0 90%, 0 0);
     }
     .enviBackGrayscale {
@@ -810,7 +820,7 @@ iframe {
     font-size: 36px;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 15% 0
 }
 
@@ -876,8 +886,8 @@ iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .945)), color-stop(36%, rgba(0, 0, 0, .639)), color-stop(51%, rgba(0, 0, 0, .2806256291579131)), to(rgba(0, 0, 0, 0)));
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, .945) 0, rgba(0, 0, 0, .639) 36%, rgba(0, 0, 0, .2806256291579131) 51%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, .945)), color-stop(36%, rgba(0, 0, 0, .639)), color-stop(51%, rgba(0, 0, 0, .2806256291579131)), to(rgba(0, 0, 0, 0)));
     background: linear-gradient(360deg, rgba(0, 0, 0, .945) 0, rgba(0, 0, 0, .639) 36%, rgba(0, 0, 0, .2806256291579131) 51%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
     top: 0
@@ -921,6 +931,8 @@ iframe {
 }
 
 .teachersgrayscale {
+    background: -o-linear-gradient(left, #000, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #000);
+    background: -webkit-gradient(linear, left top, right top, from(#000), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), to(#000));
     background: linear-gradient(to right, #000, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #000);
     height: 100%;
     position: absolute;
@@ -983,6 +995,7 @@ li b {
     justify-content: space-around;
     height: 100vh;
     position: relative;
+    -webkit-clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
     clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
 }
 
@@ -1027,6 +1040,7 @@ li b {
         -ms-flex-align: center;
         align-items: center;
         height: 80vh;
+        -webkit-clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
         clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     }
     .priorityContainer h1 {
@@ -1285,6 +1299,9 @@ li b {
     .lessonMiddle {
         margin-top: -40%;
         width: 95%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         height: 75%;
         overflow-x: hidden;

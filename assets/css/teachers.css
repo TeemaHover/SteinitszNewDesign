@@ -257,56 +257,56 @@ body {
 }
 
 .muba {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mubaWithBack1.jpeg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/mubaWithBack1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .anu {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/anuBack.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/anuBack.webp');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/compressedBack/anuBack.webp');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/anuBack.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .batnym {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/batnymBack.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/batnymBack.webp');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/compressedBack/batnymBack.webp');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/batnymBack.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .boldbaatar {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/boldbaatarBack.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/boldbaatarBack.webp');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/compressedBack/boldbaatarBack.webp');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/boldbaatarBack.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .enkhbayar {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/enkhbayarBack.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/enkhbayarBack.webp');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/compressedBack/enkhbayarBack.webp');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/enkhbayarBack.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bazarwaani {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/bazarwaaniBack.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/bazarwaaniBack.webp');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/compressedBack/bazarwaaniBack.webp');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/bazarwaaniBack.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .monkhtsogt {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/mmonhtsogtBack.jpg');
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/monkhtsogtBack.webp');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.258)), color-stop(#13132000), color-stop(#1313204c), color-stop(#131320), to(#131320)), url('../imgs/teachers/compressedBack/monkhtsogtBack.webp');
     background-image: linear-gradient(rgba(0, 0, 0, 0.258), #13132000, #1313204c, #131320, #131320), url('../imgs/teachers/compressedBack/monkhtsogtBack.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -316,6 +316,8 @@ body {
     .containerTop {
         -o-object-fit: cover;
         object-fit: cover;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
     .muba {
