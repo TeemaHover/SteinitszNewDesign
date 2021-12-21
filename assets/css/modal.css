@@ -1,129 +1,42 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
-.modal-window {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.25);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    z-index: 9999;
+.button {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
 }
 
-.modal-window:target {
-    visibility: visible;
+.modal {
+    position: absolute;
+    pointer-events: none;
+    background: rgb(253, 253, 253);
+    width: 25vw;
+    z-index: 9999999;
+    opacity: 0;
+    transition: 0.3s;
+    top: 35%;
+    left: 50%;
+    margin-left: -12.5%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.active {
     opacity: 1;
     pointer-events: auto;
 }
 
-.modal-window:target .iq {
-    -webkit-clip-path: none;
-    clip-path: none;
-}
-
-.modal-window>div {
-    width: 400px;
+.modal .close {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    padding: 2em;
-    background: white;
+    top: -20px;
+    right: -20px;
     cursor: pointer;
+    color: #ddd;
 }
 
-.modal-window header {
+.container button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
-}
-
-.modal-window h1 {
-    font-size: 150%;
-    margin: 0 0 15px;
-}
-
-.modal-close {
-    color: #aaa;
-    line-height: 50px;
-    font-size: 80%;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 70px;
-    text-decoration: none;
-}
-
-.modal-close:hover {
-    color: black;
-}
-
-
-/* Demo Styles */
-
-a {
-    color: inherit;
-}
-
-.priorityContainer .container {
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.modal-window>div {
-    border-radius: 1rem;
-}
-
-.modal-window div:not(:last-of-type) {
-    margin-bottom: 15px;
-}
-
-small {
-    color: lightgray;
-}
-
-.btn {
-    background-color: none;
-    text-decoration: none;
-}
-
-.btn i {
-    padding-right: 0.3em;
-}
-
-.interior {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-radius: 500px;
-    color: black;
-}
-
-.interior a {
-    font-size: 24px;
+    color: rgb(49, 49, 73);
 }
