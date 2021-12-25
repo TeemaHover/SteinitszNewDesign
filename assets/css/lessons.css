@@ -187,7 +187,7 @@
     background-color: white;
     color: black;
     margin-top: -18%;
-    padding-top: 18%;
+    padding-top: 20%;
     -webkit-box-shadow: 0 0 195px -100px black;
     box-shadow: 0 0 195px -100px black;
 }
@@ -260,8 +260,10 @@
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(#ffffff00), color-stop(#ffffff2b), color-stop(#ffffff), to(#ffffff)), url('../imgs/shopBack.jpg');
     background-image: -o-linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/shopBack.jpg');
     background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff00, #ffffff2b, #ffffff, #ffffff), url('../imgs/shopBack.jpg');
-    -webkit-filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
-    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.shopShadow {
+    filter: drop-shadow(5px 5px 5px rgb(67, 69, 71));
 }
 
 .shopBackText {

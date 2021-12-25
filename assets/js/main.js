@@ -40,12 +40,6 @@ $(function() {
 
 });
 
-// var loader = document.getElementById("preloader");
-
-// window.addEventListener("load", function() {
-//     loader.style.display = "none";
-// })
-
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;
 
@@ -93,4 +87,12 @@ document.addEventListener("DOMContentLoaded", function() {
         window.addEventListener("resize", lazyload);
         window.addEventListener("orientationChange", lazyload);
     }
-})
+});
+
+function on() {
+    document.getElementById("overlayPr").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlayPr").style.display = "none";
+}

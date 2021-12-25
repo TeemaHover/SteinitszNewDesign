@@ -776,8 +776,12 @@ iframe {
     width: 90%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    height: 60%;
+    height: 75%;
     padding: 0 5%
+}
+
+.teachers p {
+    color: gray;
 }
 
 .teachersBox {
@@ -997,7 +1001,7 @@ li b {
     height: 100vh;
     position: relative;
     -webkit-clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
-    clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
+    clip-path: polygon(100% 0, 100% 60%, 50% 95%, 0 60%, 0 0);
 }
 
 .priorityContainer {

@@ -10,4 +10,5 @@ $('[close-modal]').on('click', function() {
 $('.modal').on('click', function(e) {
     if (e.target !== this) { return };
     $(this).removeClass('active');
+
 });
