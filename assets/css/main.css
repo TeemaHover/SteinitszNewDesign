@@ -222,6 +222,12 @@ iframe {
     height: 70%
 }
 
+.contactContainer iframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .homePage {
     height: 120vh;
     width: 100%;
