@@ -43,8 +43,8 @@ const swiper = new Swiper('.swiper', {
             spaceBetween: 20
         },
 
-        1000: {
-            slidesPerView: 4,
+        900: {
+            slidesPerView: 3,
             spaceBetween: 40
         },
         1400: {
@@ -52,8 +52,12 @@ const swiper = new Swiper('.swiper', {
             spaceBetween: 40
         },
     },
+    autoplay: {
+        delay: 1,
+    },
 
-    speed: 4000,
+    speed: 20000,
+
     grabCursor: true,
 
     navigation: {
