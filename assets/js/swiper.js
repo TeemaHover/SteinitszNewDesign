@@ -52,11 +52,14 @@ const swiper = new Swiper('.swiper', {
             spaceBetween: 40
         },
     },
+
     autoplay: {
         delay: 1,
+        disableOnInteraction: true
     },
 
-    speed: 20000,
+    freeMode: true,
+    speed: 10000,
 
     grabCursor: true,
 
@@ -65,7 +68,18 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
 
+    freeModeMomentum: false
+
 })
+$(".swiper").mouseenter(function() {
+    console.log("mouse over");
+    swiper.autoplay.stop();
+});
+
+$(".swiper").mouseleave(function() {
+    console.log("mouse leave");
+    swiper.autoplay.start();
+});
 
 const swiper2 = new Swiper('.swiperTeachers', {
 
